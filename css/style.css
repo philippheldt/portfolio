@@ -54,7 +54,7 @@ header a {
 header a:hover {
   -webkit-text-decoration: underline solid white;
           text-decoration: underline solid white;
-  text-decoration-thickness: 10px;
+  text-decoration-thickness: 5px;
 }
 
 .container {
