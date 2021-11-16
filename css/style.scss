@@ -35,7 +35,7 @@ body{
 }
 
 header{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -59,9 +59,10 @@ header{
 }
 
 .container{
-    max-width: 600px;
+    max-width: 500px;
     margin: 150px auto;
     text-align: center;
+
     
     img{
         margin-top: 50px;
