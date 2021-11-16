@@ -1,0 +1,97 @@
+:root {
+  --main-bg-color: #FFFD63;
+}
+
+* {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: Euclid;
+  src: url(../fonts/EuclidCircularSemiRegular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Euclid;
+  src: url(../fonts/EuclidCircularSemiMedium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Euclid;
+  src: url(../fonts/EuclidCircularBold.ttf);
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: fatfrank, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Eculid', sans-serif;
+}
+
+header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--main-bg-color);
+  height: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+header a {
+  color: #000;
+  text-decoration: none;
+  margin: 10px;
+}
+
+header a:hover {
+  -webkit-text-decoration: underline solid white;
+          text-decoration: underline solid white;
+  text-decoration-thickness: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.container img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.container p {
+  font-size: 25px;
+}
+
+.container button {
+  margin-top: 40px;
+  font-family: 'Eculid', sans-serif;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transform: translate(0px);
+          transform: translate(0px);
+}
+
+.container button:hover {
+  -webkit-box-shadow: 5px 5px var(--main-bg-color);
+          box-shadow: 5px 5px var(--main-bg-color);
+  -webkit-transform: translate(-5px, -5px);
+          transform: translate(-5px, -5px);
+}
+/*# sourceMappingURL=style.css.map */
