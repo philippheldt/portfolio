@@ -95,4 +95,10 @@ header a:hover {
   -webkit-transform: translate(-5px, -5px);
           transform: translate(-5px, -5px);
 }
+
+@media (max-width: 600px) {
+  .container {
+    margin: 50px auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
