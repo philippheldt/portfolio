@@ -80,6 +80,7 @@ header a:hover {
   font-weight: 700;
   font-size: 15px;
   background-color: #fff;
+  color: #000;
   border: 2px solid #000;
   cursor: pointer;
   -webkit-transition: all 0.25s ease;
