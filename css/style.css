@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #FFFD63;
+  --main-bg-color: #fffd63;
 }
 
 * {
@@ -24,14 +24,19 @@
   font-weight: 700;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: fatfrank, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 body {
-  font-family: 'Eculid', sans-serif;
+  font-family: "Eculid", sans-serif;
 }
 
 header {
@@ -74,7 +79,7 @@ header a:hover {
 
 .container button {
   margin-top: 40px;
-  font-family: 'Eculid', sans-serif;
+  font-family: "Eculid", sans-serif;
   padding: 20px;
   border-radius: 50px;
   font-weight: 700;
