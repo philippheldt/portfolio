@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: Euclid;
+  src: url(../fonts/EuclidCircularSemiRegular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Euclid;
+  src: url(../fonts/EuclidCircularSemiMedium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Euclid;
+  src: url(../fonts/EuclidCircularBold.ttf);
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "fatfrank", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Euclid", sans-serif;
+}
+/*# sourceMappingURL=setup.css.map */

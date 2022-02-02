@@ -4,30 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/lcr1xkw.css" />
+    <link rel="stylesheet" href="css/setup.css" />
+    <link rel="stylesheet" href="css/positioning.css" />
+    <link rel="stylesheet" href="css/buttons.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Philipp Jenny Dev</title>
+    <title>Document</title>
   </head>
   <body>
-    <header>
-      <a href="https://philippjenny.myportfolio.com" target="_blank"
-        >Aktuelles Portfolio</a
-      >
-      | <a href="https://hlvn.eu" target="_blank">Shop</a> |
-      <a href="https://www.instagram.com/plip.jny/" target="_blank"
-        >Instagram</a
-      >
-      | <a href="https://github.com/philippjenny" target="_blank">Github</a>
-    </header>
     <div class="container">
-      <p>Hier entsteht mein neues Portfolio:</p>
-      <img src="img/philippLogo.png" alt="" />
+      <section id="start">
+        <div id="bm"></div>
+      </section>
+      <div class="content">
+        <section id="profile" class="g-10">
+          <div class="text c1-5">
+            <h1>moin!</h1>
+            <p>
+              Mein Name ist Philipp Jenny <br />
+              ich bin <br />
+              und studiere monemtan Online Medien <br />
+              an der Hochschule Furtwangen.
+            </p>
+            <button class="b-yellow">Erzähl’ mir mehr! ></button>
+          </div>
+          <div class="gallery c5-10">
+            <img src="img/philipp.png" alt="" />
+          </div>
+        </section>
+        <section id="portfolio" class="g-10">
+          <div class="gallery g-6 c1-6">
+            <img src="img/plantifive1.png" class="c1-4" alt="" />
+            <img src="img/plantifive2.png" class="c5-6" alt="" />
+            <img src="img/plantifive3.png" class="c5-6" alt="" />
+          </div>
+          <div class="text c7-10">
+            <h2>plantifive</h2>
+            <p>
+              Animationsvideo als Werbung für eine Nachhaltigkeits- und Spendenkampagne der
+              Jugendverbands SWD-EC.
+            </p>
+            <button class="b-black">planti… was? ></button>
+          </div>
 
-      <button
-        onclick="window.location.href='https://philippjenny.myportfolio.com'"
-      >
-        zum alten Portfolio
-      </button>
+          <video class="video-frame c1-10">
+            <source src="img/EP59.mp4" type="" />
+          </video>
+
+          <div class="filled g-10 c1-10">
+            <div class="text c2-5">
+              <h2>
+                earth <br />
+                in layers
+              </h2>
+              <p>3D-Animation im Rahmen des Studiums, die den Aufbau der Erde erklären soll.</p>
+              <button class="b-white">Ich habe Explosion gehört? ></button>
+            </div>
+          </div>
+          <div class="text c1-5">
+            <h2>paX anders</h2>
+            <p>Lyricvideo für ein spoken word Video als einspieler bei einem Live Event.</p>
+            <button class="b-black">Mehr sehen ></button>
+          </div>
+          <div class="gallery c5-10"></div>
+        </section>
+      </div>
     </div>
+    <section id="more"></section>
+    <div class="container">
+      <div class="text c1-5">
+        <h2>Lebenslauf</h2>
+        <p>Lyricvideo für ein spoken word Video als einspieler bei einem Live Event.</p>
+        <button class="b-yellow">Mehr sehen ></button>
+      </div>
+      <div class="gallery c5-10"></div>
+    </div>
+    <section id="footer"></section>
+    <script src="animation/lottie.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
