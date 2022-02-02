@@ -1,3 +1,10 @@
+//nav
+.line {
+  content: "";
+  height: 50px;
+  border: 2px solid black;
+}
+
 // sections
 
 #start {
@@ -19,6 +26,11 @@
   @media (max-width: 400px) {
     margin: 0 10vw;
   }
+}
+
+#bm-2 {
+  max-width: 100px;
+  cursor: pointer;
 }
 
 #profile {
