@@ -1,5 +1,5 @@
 window.addEventListener("load", function () {
-  var animation1 = lottie.loadAnimation({
+  var animationWhite = lottie.loadAnimation({
     container: document.getElementById("bm"),
     renderer: "svg",
     loop: false,
@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
     path: "animation/logo_white.json",
   });
 
-  var animation2 = lottie.loadAnimation({
+  var animationBlack = lottie.loadAnimation({
     container: document.getElementById("bm-2"),
     renderer: "svg",
     loop: false,
@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
   });
 
   function loopMiddleWhite() {
-    animation1.playSegments([23, 139], false);
+    animationWhite.playSegments([23, 139], false);
   }
   var loopWhite;
   const desktopHeader = document.querySelector(".navigation");
@@ -26,15 +26,15 @@ window.addEventListener("load", function () {
 
   inView("#bm")
     .on("enter", () => {
-      animation2.playSegments([147, 159], true);
-      animation1.playSegments([0, 23], true);
+      animationBlack.playSegments([147, 159], true);
+      animationWhite.playSegments([0, 23], true);
       loopWhite = setInterval(loopMiddleWhite, 3000);
       desktopHeader.classList.remove("visible");
     })
     .on("exit", () => {
       clearInterval(loopWhite);
-      animation1.playSegments([147, 159], true);
+      animationWhite.playSegments([147, 159], true);
       desktopHeader.classList.add("visible");
-      animation2.playSegments([0, 23], true);
+      animationBlack.playSegments([0, 23], true);
     });
 });
