@@ -22,6 +22,33 @@
       </div>
     </nav>
 
+    <div class="overlay">
+      <div class="welcome-box">
+        <div class="x" id="x">&#xd7;</div>
+        <h1>moin!</h1>
+        <p>
+          Diese Website ist noch ein „work in progress“. Wenn du den aktuellen Stand sehen möchtest,
+          dann schließe dieses Fenster. Den Quellcode dazu gibts auf
+          <a href="https://github.com/philippjenny/portfolio" target="_blank">Github</a>.
+          <br />
+          <br />
+          Ansonsten kannst du dir auf meinem
+          <a href="https://philippjenny.myportfolio.com">alten Portfolio</a> ein paar meiner
+          Arbeiten anschauen!
+        </p>
+        <button
+          class="b-black"
+          onclick="location.href='https://github.com/philippjenny/portfolio';"
+        >
+          <img src="img/githib_logo.png" alt="" />
+        </button>
+        <button class="b-black" id="close-overlay">Website anschauen</button>
+        <button class="b-yellow" onclick="location.href='https://philippjenny.myportfolio.com';">
+          zum alten Portfolio
+        </button>
+      </div>
+    </div>
+
     <div class="container">
       <section id="start">
         <div id="bm"></div>
@@ -101,5 +128,6 @@
     <script src="animation/lottie.js" type="text/javascript"></script>
     <script src="js/in-view.js" type="text/javascript"></script>
     <script src="js/logo_anim.js"></script>
+    <script src="js/overlay.js"></script>
   </body>
 </html>

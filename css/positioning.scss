@@ -1,5 +1,32 @@
 // positioning
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vw;
+  z-index: 19;
+}
+
+.welcome-box {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-300px, -232.75px);
+  z-index: 20;
+  width: 500px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.406);
+
+  h1 {
+    margin-top: 0px;
+  }
+}
+
 .container {
   max-width: 1000px;
   margin: auto;

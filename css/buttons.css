@@ -26,9 +26,13 @@
   font-family: "Euclid", sans-serif;
   color: #fff;
   cursor: pointer;
-  margin: 20px 0;
+  margin: 20px 10px 20px 0px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+.b-black img {
+  width: 17px;
 }
 
 .b-black:hover {
@@ -54,5 +58,14 @@
   background-color: #e6e6e6;
   -webkit-box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.466);
           box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.466);
+}
+
+.x {
+  font-size: 50px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  margin-top: -20px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=buttons.css.map */
