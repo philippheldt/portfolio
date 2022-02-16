@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/setup.css" />
     <link rel="stylesheet" href="css/positioning.css" />
     <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="css/jobslider.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -22,7 +23,7 @@
       </div>
     </nav>
 
-    <div class="overlay">
+    <div class="overlay" style="display: none">
       <div class="welcome-box">
         <div class="x" id="x">&#xd7;</div>
         <h1>moin!</h1>
@@ -60,9 +61,22 @@
         <section id="profile" class="g-10">
           <div class="text c1-5">
             <h1>moin!</h1>
+            <p>Mein Name ist Philipp Jenny</p>
+            <div>
+              <div class="job-buttons">
+                <p>ich bin</p>
+                <button class="b-yellow-s" id="j-left">&lt;</button>
+                <div class="b-gray-s">
+                  <div class="slider-b p-1">
+                    <div class="b-element">Frontend-Webdeveloper</div>
+                    <div class="b-element">Grafikdesigner</div>
+                    <div class="b-element">Cutter</div>
+                  </div>
+                </div>
+                <button class="b-yellow-s" id="j-right">&gt;</button>
+              </div>
+            </div>
             <p>
-              Mein Name ist Philipp Jenny <br />
-              ich bin <br />
               und studiere monemtan Online Medien <br />
               an der <a href="" target="_blank">Hochschule Furtwangen</a> .
             </p>
@@ -129,5 +143,6 @@
     <script src="js/in-view.js" type="text/javascript"></script>
     <script src="js/logo_anim.js"></script>
     <script src="js/overlay.js"></script>
+    <script src="js/jobslider.js"></script>
   </body>
 </html>
