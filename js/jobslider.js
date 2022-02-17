@@ -18,6 +18,13 @@ var loadingAnimation = lottie.loadAnimation({
   path: "animation/loading.json",
 });
 
+async function waitLoader(passthrough) {
+  await changeContent(passthrough);
+  portfolio.style.opacity = "1";
+  loadingContent.style.transform = "translateY(100px)";
+  loadingAnimation.stop();
+}
+
 changeContent(webDev);
 
 leftButton.addEventListener("click", function () {
@@ -64,11 +71,11 @@ slider.addEventListener("transitionend", function () {
   sliderPos2.children[pos - 1].style.opacity = "1";
 
   if (pos === 3) {
-    changeContent(cutter);
+    waitLoader(cutter);
   } else if (pos === 2) {
-    changeContent(grafik);
+    waitLoader(grafik);
   } else if (pos === 1) {
-    changeContent(webDev);
+    waitLoader(webDev);
   }
 
   console.log(pos);
@@ -76,9 +83,4 @@ slider.addEventListener("transitionend", function () {
     slider.style.transition = "all 0.5s ease";
     sliderPos1.style.transition = "all 0.5s ease";
   });
-  setTimeout(function () {
-    portfolio.style.opacity = "1";
-    loadingContent.style.transform = "translateY(100px)";
-    loadingAnimation.stop();
-  }, 1000);
 });
