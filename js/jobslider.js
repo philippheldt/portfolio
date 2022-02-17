@@ -7,6 +7,7 @@ const slider = document.querySelector(".slider-b");
 const sliderPos1 = document.querySelector(".pos-1-slider");
 const sliderPos2 = document.querySelector(".pos-2-slider");
 const carousel = document.querySelector(".b-gray-s");
+const portfolio = document.querySelector("#portfolio");
 const loadingContent = document.querySelector(".loading-content");
 
 var loadingAnimation = lottie.loadAnimation({
@@ -26,6 +27,7 @@ leftButton.addEventListener("click", function () {
   slider.style.transform = "translateX(200px)";
   sliderPos1.children[pos - 1].style.opacity = "0";
   sliderPos2.children[pos - 1].style.opacity = "0";
+  portfolio.style.opacity = "0";
   loadingContent.style.transform = "translateY(0)";
   loadingAnimation.play();
 });
@@ -39,6 +41,7 @@ rightButton.addEventListener("click", function () {
   slider.style.transform = "translateX(-200px)";
   sliderPos1.children[pos - 1].style.opacity = "0";
   sliderPos2.children[pos - 1].style.opacity = "0";
+  portfolio.style.opacity = "0";
   loadingContent.style.transform = "translateY(0)";
   loadingAnimation.play();
 });
@@ -64,6 +67,7 @@ slider.addEventListener("transitionend", function () {
     sliderPos1.style.transition = "all 0.5s ease";
   });
   setTimeout(function () {
+    portfolio.style.opacity = "1";
     loadingContent.style.transform = "translateY(100px)";
     loadingAnimation.stop();
   }, 1000);

@@ -58,6 +58,12 @@
   width: 100%;
 }
 
+#portfolio {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 #portfolio .gallery img {
   width: 100%;
 }
