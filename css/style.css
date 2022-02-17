@@ -46,6 +46,10 @@
   cursor: pointer;
 }
 
+#profile {
+  position: relative;
+}
+
 #profile .text p {
   line-height: 2;
 }

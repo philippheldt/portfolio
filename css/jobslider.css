@@ -58,22 +58,69 @@
   transition: all 0.5s ease;
 }
 
-.slider-b.p-1 {
-  -webkit-transform: translateX(0px);
-          transform: translateX(0px);
-}
-
-.slider-b.p-2 {
-  -webkit-transform: translateX(-200px);
-          transform: translateX(-200px);
-}
-
-.slider-b.p-3 {
-  -webkit-transform: translateX(-400px);
-          transform: translateX(-400px);
-}
-
 .b-element {
   width: 300px;
+}
+
+.img-pos-1 {
+  position: absolute;
+  overflow: hidden;
+  width: 110px;
+  height: 110px;
+  top: -50px;
+  left: -150px;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.img-pos-1 div img {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.img-pos-1 div img:nth-child(1) {
+  opacity: 1;
+}
+
+.img-pos-2 {
+  position: absolute;
+  overflow: hidden;
+  width: 110px;
+  height: 110px;
+  bottom: -110px;
+  right: -70px;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.img-pos-2 div img {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.img-pos-2 div img:nth-child(1) {
+  opacity: 1;
 }
 /*# sourceMappingURL=jobslider.css.map */

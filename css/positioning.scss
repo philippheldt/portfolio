@@ -1,4 +1,5 @@
 // positioning
+$pj-yellow: #fffd63;
 
 .overlay {
   position: fixed;
@@ -156,39 +157,14 @@ nav {
   position: relative;
 }
 
-.img-pos-1 {
-  position: absolute;
-  overflow: hidden;
-  width: 110px;
-  height: 110px;
-  top: -50px;
-  left: -150px;
-  transform: rotate(-10deg);
-  div {
-    display: flex;
-    flex-direction: row;
-    transition: all 0.5s ease;
-    img {
-      width: 100%;
-    }
-  }
-}
-
-.img-pos-2 {
-  position: absolute;
-  overflow: hidden;
-  width: 110px;
-  height: 110px;
-  bottom: -100px;
-  right: -70px;
-  transform: rotate(-10deg);
-
-  div {
-    display: flex;
-    flex-direction: row;
-    transition: all 0.5s ease;
-    img {
-      width: 100%;
-    }
-  }
+.loading-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: $pj-yellow;
+  height: 100px;
+  z-index: 20;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
 }
