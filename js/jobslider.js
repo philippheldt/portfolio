@@ -18,6 +18,8 @@ var loadingAnimation = lottie.loadAnimation({
   path: "animation/loading.json",
 });
 
+changeContent(webDev);
+
 leftButton.addEventListener("click", function () {
   if (direction === -1) {
     slider.appendChild(slider.firstElementChild);
@@ -60,6 +62,14 @@ slider.addEventListener("transitionend", function () {
 
   sliderPos1.children[pos - 1].style.opacity = "1";
   sliderPos2.children[pos - 1].style.opacity = "1";
+
+  if (pos === 3) {
+    changeContent(cutter);
+  } else if (pos === 2) {
+    changeContent(grafik);
+  } else if (pos === 1) {
+    changeContent(webDev);
+  }
 
   console.log(pos);
   setTimeout(function () {
