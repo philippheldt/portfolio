@@ -7,6 +7,15 @@ const slider = document.querySelector(".slider-b");
 const sliderPos1 = document.querySelector(".pos-1-slider");
 const sliderPos2 = document.querySelector(".pos-2-slider");
 const carousel = document.querySelector(".b-gray-s");
+const loadingContent = document.querySelector(".loading-content");
+
+var loadingAnimation = lottie.loadAnimation({
+  container: document.getElementById("load"),
+  renderer: "svg",
+  loop: true,
+  autoplay: false,
+  path: "animation/loading.json",
+});
 
 leftButton.addEventListener("click", function () {
   if (direction === -1) {
@@ -17,6 +26,8 @@ leftButton.addEventListener("click", function () {
   slider.style.transform = "translateX(200px)";
   sliderPos1.children[pos - 1].style.opacity = "0";
   sliderPos2.children[pos - 1].style.opacity = "0";
+  loadingContent.style.transform = "translateY(0)";
+  loadingAnimation.play();
 });
 
 rightButton.addEventListener("click", function () {
@@ -28,6 +39,8 @@ rightButton.addEventListener("click", function () {
   slider.style.transform = "translateX(-200px)";
   sliderPos1.children[pos - 1].style.opacity = "0";
   sliderPos2.children[pos - 1].style.opacity = "0";
+  loadingContent.style.transform = "translateY(0)";
+  loadingAnimation.play();
 });
 
 slider.addEventListener("transitionend", function () {
@@ -50,4 +63,8 @@ slider.addEventListener("transitionend", function () {
     slider.style.transition = "all 0.5s ease";
     sliderPos1.style.transition = "all 0.5s ease";
   });
+  setTimeout(function () {
+    loadingContent.style.transform = "translateY(100px)";
+    loadingAnimation.stop();
+  }, 1000);
 });

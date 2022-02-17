@@ -123,4 +123,9 @@
 .img-pos-2 div img:nth-child(1) {
   opacity: 1;
 }
+
+#load {
+  width: 200px;
+  margin: auto;
+}
 /*# sourceMappingURL=jobslider.css.map */
