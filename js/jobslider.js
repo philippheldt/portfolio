@@ -1,15 +1,12 @@
 var pos = 1;
-var posB = 3;
+var direction = -1;
 
 const leftButton = document.querySelector("#j-left");
 const rightButton = document.querySelector("#j-right");
 const slider = document.querySelector(".slider-b");
-const carousel = document.querySelector(".b-gray-s");
-const sliderPos2 = document.querySelector(".pos-2-slider");
-const carouselPos2 = document.querySelector(".img-pos-2");
 const sliderPos1 = document.querySelector(".pos-1-slider");
-const carouselPos1 = document.querySelector(".img-pos-1");
-var direction = -1;
+const sliderPos2 = document.querySelector(".pos-2-slider");
+const carousel = document.querySelector(".b-gray-s");
 
 leftButton.addEventListener("click", function () {
   if (direction === -1) {
