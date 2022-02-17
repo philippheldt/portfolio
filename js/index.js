@@ -60,13 +60,13 @@ const webDev = [
 
 const grafik = [
   {
-    title: "plantifive",
+    title: "Flyer JE-Freizeit",
     text: "Animationsvideo als Werbung für eine Nachhaltigkeits- und Spendenkampagne der Jugendverbands SWD-EC.",
-    button: "plati... was? >",
+    button: "Ja Grüezi! >",
     buttonHref: "#",
-    img1: "img/plantifive1.png",
-    img2: "img/plantifive2.png",
-    img3: "img/plantifive3.png",
+    img1: "img/jef1.png",
+    img2: "img/jef2.png",
+    img3: "img/jef3.png",
   },
   {
     title: "earth <br /> in layers",

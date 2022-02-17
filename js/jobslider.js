@@ -20,9 +20,11 @@ var loadingAnimation = lottie.loadAnimation({
 
 async function waitLoader(passthrough) {
   await changeContent(passthrough);
-  portfolio.style.opacity = "1";
-  loadingContent.style.transform = "translateY(100px)";
-  loadingAnimation.stop();
+  setTimeout(function () {
+    portfolio.style.opacity = "1";
+    loadingContent.style.transform = "translateY(100px)";
+    loadingAnimation.stop();
+  }, 250);
 }
 
 changeContent(webDev);
