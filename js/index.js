@@ -7,6 +7,7 @@ const cutter = [
     img1: "img/plantifive1.png",
     img2: "img/plantifive2.png",
     img3: "img/plantifive3.png",
+    img4: "img/plantifive1.png",
   },
   {
     title: "earth <br /> in layers",
@@ -16,6 +17,7 @@ const cutter = [
     img1: "img/world_animation.mp4",
     img2: false,
     img3: false,
+    img4: "img/earth.png",
   },
   {
     title: "paX anders",
@@ -25,6 +27,7 @@ const cutter = [
     img1: "img/paxan1.png",
     img2: "img/paxan2.png",
     img3: "img/paxan3.png",
+    img4: "img/paxan1.png",
   },
 ];
 
@@ -37,6 +40,7 @@ const webDev = [
     img1: "img/sb1.jpg",
     img2: "img/sb2.jpg",
     img3: "img/sb3.jpg",
+    img4: "img/sb1.jpg",
   },
   {
     title: "WLAN <br /> Dashboard",
@@ -46,6 +50,7 @@ const webDev = [
     img1: "img/wifi2.mp4",
     img2: false,
     img3: false,
+    img4: "img/earth.png",
   },
   {
     title: "portfolio",
@@ -55,6 +60,7 @@ const webDev = [
     img1: "img/pj1.png",
     img2: "img/pj2.png",
     img3: "img/pj3.png",
+    img4: "img/pj1.png",
   },
 ];
 
@@ -67,6 +73,7 @@ const grafik = [
     img1: "img/jef1.png",
     img2: "img/jef2.png",
     img3: "img/jef3.png",
+    img4: "img/jef1.png",
   },
   {
     title: "earth <br /> in layers",
@@ -76,6 +83,7 @@ const grafik = [
     img1: "img/world_animation.mp4",
     img2: false,
     img3: false,
+    img4: "img/earth.png",
   },
   {
     title: "paX anders",
@@ -85,5 +93,6 @@ const grafik = [
     img1: "img/paxan1.png",
     img2: "img/paxan2.png",
     img3: "img/paxan3.png",
+    img4: "img/paxan1.png",
   },
 ];

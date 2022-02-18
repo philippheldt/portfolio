@@ -1,0 +1,94 @@
+#more {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#more .container {
+  margin-top: 0px;
+}
+
+#more .container .content {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#more .container .content h2 {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#more .more-title-wrapper {
+  padding: 0 0 0 200px;
+  position: relative;
+  background-color: #dfdfdf;
+  height: 100%;
+  width: 100%;
+}
+
+.more-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: calc(100% - 150px - 3rem);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 100px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.more-wrapper div {
+  height: 60%;
+  background-image: url("../img/earth.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0 40px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.more-wrapper div button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+}
+
+.more-wrapper :nth-child(1),
+.more-wrapper :nth-child(5) {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 200px;
+}
+
+.more-wrapper :nth-child(2),
+.more-wrapper :nth-child(4) {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 300px;
+}
+
+.more-wrapper :nth-child(3),
+.more-wrapper :nth-child(6) {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 400px;
+}
+/*# sourceMappingURL=moreslider.css.map */
