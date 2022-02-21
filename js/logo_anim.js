@@ -39,8 +39,4 @@ window.addEventListener("load", function () {
       animationBlack.playSegments([0, 23], true);
       document.querySelector(".me").style.transform = "translateY(0px)";
     });
-
-  inView("#content")
-    .on("enter", () => {})
-    .on("exit", () => {});
 });

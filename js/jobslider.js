@@ -91,26 +91,39 @@ slider.addEventListener("transitionend", function () {
   });
 });
 
+var currentJob;
+
+function changeNameMore(job) {
+  currentJob = jobMore.innerHTML;
+  if (currentJob !== job) {
+    jobMore.style.opacity = "0";
+    setTimeout(function () {
+      jobMore.innerHTML = job;
+      jobMore.style.opacity = "1";
+    }, 250);
+  }
+}
+
 inView("#more-2")
   .on("enter", () => {
     if (pos === 3) {
-      jobMore.style.opacity = "0";
-      setTimeout(function () {
-        jobMore.innerHTML = "webdev.";
-        jobMore.style.opacity = "1";
-      }, 250);
+      changeNameMore("webdev.");
     } else if (pos === 2) {
-      jobMore.innerHTML = "video.";
+      changeNameMore("video.");
     } else if (pos === 1) {
-      jobMore.innerHTML = "grafik.";
+      changeNameMore("grafik.");
     }
   })
-  .on("exit", () => {
+  .on("exit", () => {});
+
+inView("#more-1")
+  .on("enter", () => {
     if (pos === 3) {
-      jobMore.innerHTML = "grafik.";
+      changeNameMore("grafik.");
     } else if (pos === 2) {
-      jobMore.innerHTML = "webdev.";
+      changeNameMore("webdev.");
     } else if (pos === 1) {
-      jobMore.innerHTML = "video.";
+      changeNameMore("video.");
     }
-  });
+  })
+  .on("exit", () => {});
