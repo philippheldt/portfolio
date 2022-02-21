@@ -9,6 +9,7 @@ const sliderPos2 = document.querySelector(".pos-2-slider");
 const carousel = document.querySelector(".b-gray-s");
 const portfolio = document.querySelector("#portfolio");
 const loadingContent = document.querySelector(".loading-content");
+const jobMore = document.querySelector("#job-more");
 
 var loadingAnimation = lottie.loadAnimation({
   container: document.getElementById("load"),
@@ -74,10 +75,13 @@ slider.addEventListener("transitionend", function () {
 
   if (pos === 3) {
     waitLoader(cutter);
+    jobMore.innerHTML = "grafik.";
   } else if (pos === 2) {
     waitLoader(grafik);
+    jobMore.innerHTML = "webdev.";
   } else if (pos === 1) {
     waitLoader(webDev);
+    jobMore.innerHTML = "video.";
   }
 
   console.log(pos);
@@ -86,3 +90,27 @@ slider.addEventListener("transitionend", function () {
     sliderPos1.style.transition = "all 0.5s ease";
   });
 });
+
+inView("#more-2")
+  .on("enter", () => {
+    if (pos === 3) {
+      jobMore.style.opacity = "0";
+      setTimeout(function () {
+        jobMore.innerHTML = "webdev.";
+        jobMore.style.opacity = "1";
+      }, 250);
+    } else if (pos === 2) {
+      jobMore.innerHTML = "video.";
+    } else if (pos === 1) {
+      jobMore.innerHTML = "grafik.";
+    }
+  })
+  .on("exit", () => {
+    if (pos === 3) {
+      jobMore.innerHTML = "grafik.";
+    } else if (pos === 2) {
+      jobMore.innerHTML = "webdev.";
+    } else if (pos === 1) {
+      jobMore.innerHTML = "video.";
+    }
+  });
