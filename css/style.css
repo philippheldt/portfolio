@@ -102,8 +102,7 @@
   z-index: -1;
 }
 
-#footer {
-  background-color: #000;
-  height: 50vh;
+.white {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

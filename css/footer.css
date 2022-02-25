@@ -1,0 +1,96 @@
+.logos {
+  -ms-grid-row-align: end;
+      align-self: end;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 0;
+}
+
+.logos img {
+  width: 40px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.logos #github,
+.logos #github-background {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.logos #insta,
+.logos #insta-background {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.logos #github,
+.logos #insta {
+  z-index: 1;
+}
+
+.logos #github:hover ~ #github-background,
+.logos #insta:hover ~ #insta-background {
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#footer {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer .container {
+  position: relative;
+  margin-top: 0px;
+}
+
+#footer .container #insta-button {
+  position: absolute;
+  top: -150px;
+  z-index: 10;
+}
+
+#instagram {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+#instagram img {
+  width: 16.6666666667vw;
+  margin: 0px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+#instagram img:hover {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+/*# sourceMappingURL=footer.css.map */
