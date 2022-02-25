@@ -85,4 +85,9 @@ a:hover::before {
   -webkit-transform: scaleX(100%);
           transform: scaleX(100%);
 }
+
+.overflow-control {
+  width: 100vw;
+  overflow: hidden;
+}
 /*# sourceMappingURL=setup.css.map */

@@ -1,0 +1,15 @@
+$pj-yellow: #fffd63;
+
+.cv-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-b-cv {
+  display: flex;
+  transition: all 0.5s ease;
+}
+
+.b-element {
+  width: 200px;
+}

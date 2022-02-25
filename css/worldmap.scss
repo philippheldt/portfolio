@@ -1,0 +1,24 @@
+.world {
+  width: 50vw;
+  height: 50vw;
+  overflow: hidden;
+  border-radius: 100%;
+  transform: translateX(20vw);
+  #world-pos {
+    height: 150%;
+    transform: translate(-800px, -100px);
+    transition: all 2s ease;
+  }
+}
+
+.g-absolute {
+  position: relative;
+  margin: 0;
+  #sattellite {
+    position: absolute;
+    width: 250px;
+    top: -500px;
+    left: 500px;
+    z-index: -1;
+  }
+}
