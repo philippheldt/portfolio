@@ -74,16 +74,16 @@ a::before {
   background-color: #fffd63;
   -webkit-transform-origin: left;
           transform-origin: left;
-  -webkit-transform: scaleX(0%);
-          transform: scaleX(0%);
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
 a:hover::before {
   opacity: 1;
-  -webkit-transform: scaleX(100%);
-          transform: scaleX(100%);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .overflow-control {
