@@ -12,22 +12,22 @@ leftButtonCV.style.cursor = "default";
 function yearSwitch() {
   switch (countYears) {
     case 0:
-      worldPos.style.transform = "translate(-800px, -100px)";
+      worldPos.style.transform = "translate(-55.6vw, -15.14vh)";
       break;
     case 1:
-      worldPos.style.transform = "translate(-1300px, -300px)";
+      worldPos.style.transform = "translate(-90.6vw, -30.14vh)";
       break;
     case 2:
-      worldPos.style.transform = "translate(-800px, -100px)";
+      worldPos.style.transform = "translate(-55.6vw, -15.14vh)";
       break;
     case 3:
-      worldPos.style.transform = "translate(-800px, -100px)";
+      worldPos.style.transform = "translate(-55.6vw, -15.14vh)";
       break;
     case 4:
-      worldPos.style.transform = "translate(-700px, 0px)";
+      worldPos.style.transform = "translate(-50.6vw, -0vh)";
       break;
     case 5:
-      worldPos.style.transform = "translate(-800px, -100px)";
+      worldPos.style.transform = "translate(-55.6vw, -15.14vh)";
       break;
   }
 }
