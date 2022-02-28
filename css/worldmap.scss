@@ -1,4 +1,5 @@
 .world {
+  position: relative;
   width: 50vw;
   height: 50vw;
   overflow: hidden;
@@ -8,6 +9,29 @@
     height: 150%;
     transform: translate(-55.6vw, -15.14vh);
     transition: all 2s ease;
+  }
+  #world-localize {
+    position: absolute;
+    top: 27vh;
+    left: 20vw;
+    z-index: 20;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    div {
+      opacity: 0;
+      margin: 10px;
+      transition: all 0.5s ease;
+    }
+
+    img:hover ~ div {
+      opacity: 1;
+    }
   }
 }
 
