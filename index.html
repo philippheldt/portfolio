@@ -57,6 +57,32 @@
         </div>
       </div>
 
+      <div class="overlay" style="display: none">
+        <div class="contact-box">
+          <div class="x" id="x-contact">&#xd7;</div>
+          <div class="more-contact">
+            <h2>Kontakt</h2>
+          </div>
+          <form action="submit">
+            <label for="">Name:</label> <br />
+            <input type="text" /> <br />
+            <label for="">Wie kann ich dich erreichen?</label> <br />
+
+            <div class="erreichen">
+              <span>E-Mail</span>
+            </div>
+            <input id="erreichen" type="text" /> <br />
+            <label for="">Betreff:</label> <br />
+
+            <input type="text" /> <br />
+
+            <label for="">Nachricht:</label> <br />
+            <textarea style="resize: none" name="" id="" cols="30" rows="10"></textarea> <br />
+            <input type="submit" value="Absenden >" class="b-black" />
+          </form>
+        </div>
+      </div>
+
       <div class="container">
         <section id="start">
           <div id="bm"></div>
@@ -242,7 +268,7 @@
               +49 1517 0096177 <br /><br />
             </p>
             <a href="">Impressum</a>
-            <button class="b-white">Jetzt anschreiben ></button>
+            <button class="b-white" onclick="openContact();">Jetzt anschreiben ></button>
           </div>
         </div>
       </section>

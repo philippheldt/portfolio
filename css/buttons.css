@@ -68,4 +68,65 @@
   margin-top: -20px;
   cursor: pointer;
 }
+
+form {
+  margin-top: 100px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Euclid", sans-serif;
+  margin: 10px 0 15px 0;
+  width: 100%;
+}
+
+.erreichen {
+  width: 100%;
+  position: relative;
+}
+
+.erreichen span {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
+.erreichen span::after {
+  content: "";
+  background-color: #a4a4a4;
+  height: 30px;
+  width: 1px;
+  position: absolute;
+  top: -5px;
+  right: -20px;
+}
+
+#erreichen {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 15px 15px 100px;
+}
+
+input:focus,
+textarea {
+  outline: none;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  width: auto;
+}
 /*# sourceMappingURL=buttons.css.map */
