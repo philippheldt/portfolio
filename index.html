@@ -63,21 +63,21 @@
           <div class="more-contact">
             <h2>Kontakt</h2>
           </div>
-          <form action="submit">
+          <form action="submit" method="POST" name="kontakaufnahme" data-netlify="true">
             <label for="">Name:</label> <br />
-            <input type="text" /> <br />
+            <input type="text" name="Name" /> <br />
             <label for="">Wie kann ich dich erreichen?</label> <br />
 
             <div class="erreichen">
               <span>E-Mail</span>
             </div>
-            <input id="erreichen" type="text" /> <br />
+            <input id="erreichen" name="Contact" type="text" /> <br />
             <label for="">Betreff:</label> <br />
+            <input type="text" name="Subject" /> <br />
 
-            <input type="text" /> <br />
-
-            <label for="">Nachricht:</label> <br />
+            <label for="" name="Message">Nachricht:</label> <br />
             <textarea style="resize: none" name="" id="" cols="30" rows="10"></textarea> <br />
+            <div class="field" data-netlify-recaptcha="true"></div>
             <input type="submit" value="Absenden >" class="b-black" />
           </form>
         </div>
