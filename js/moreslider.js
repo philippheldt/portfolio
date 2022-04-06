@@ -66,3 +66,4 @@ const sceneSat = new ScrollMagic.Scene({
 
   // .addIndicators()
   .addTo(controllerSat);
+

@@ -1,0 +1,9 @@
+Presets:
+
+reg_1
+full_1
+
+reg_2
+
+reg_3_small
+reg_3_large

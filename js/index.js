@@ -96,3 +96,4 @@ const grafik = [
     img4: "img/paxan1.png",
   },
 ];
+

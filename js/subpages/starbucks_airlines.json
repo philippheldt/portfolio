@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "presetName": "reg_3_large",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "This is the regular Text",
+      "img_1": "url",
+      "img_2": "url",
+      "img_3": "url",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com"
+    },
+    {
+      "presetName": "reg_3_small",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "This is the regular Text",
+      "img_1": "url",
+      "img_2": "url",
+      "img_3": "url",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com"
+    }
+  ]
+}
