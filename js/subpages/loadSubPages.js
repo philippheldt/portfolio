@@ -2,6 +2,8 @@ var obj;
 var i = 0;
 let app = document.querySelector(".content");
 
+//Hier wird die objekt API gefetcht und daraus dynamisch die Seite aufgebaut.
+
 fetch("js/subpages/starbucks.json")
   .then((res) => res.json())
   .then((data) => (obj = data))
