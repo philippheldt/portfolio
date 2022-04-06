@@ -10,19 +10,21 @@
       "img_3": "img/sb3.jpg",
       "button": true,
       "buttonText": "This is the Button Text",
-      "buttonLink": "https://www.google.com"
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
     },
     {
       "presetName": "reg_3_large",
       "title": false,
       "titleText": "This is the Title",
       "regText": "This is the regular Text",
-      "img_1": "paxan1.jpg",
-      "img_2": "paxan2.jpg",
-      "img_3": "paxan3.jpg",
+      "img_1": "img/paxan1.png",
+      "img_2": "img/paxan2.png",
+      "img_3": "img/paxan3.png",
       "button": true,
       "buttonText": "This is the Button Text",
-      "buttonLink": "https://www.google.com"
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
     }
   ]
 }
