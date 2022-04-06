@@ -1,6 +1,8 @@
-var data;
+var obj;
 
-fetch("starbucks_airlines.json")
+fetch("js/subpages/starbucks.json")
   .then((res) => res.json())
-  .then((data) => (data = data))
-  .then(() => console.log(data));
+  .then((data) => (obj = data))
+  .then(() => {
+    console.log(obj.articles[0].titleText);
+  });
