@@ -8,6 +8,7 @@ const cutter = [
     img2: "img/plantifive2.png",
     img3: "img/plantifive3.png",
     img4: "img/plantifive1.png",
+    url: "https://www.philippjenny.de/plantifive",
   },
   {
     title: "earth <br /> in layers",
@@ -18,6 +19,7 @@ const cutter = [
     img2: false,
     img3: false,
     img4: "img/earth.png",
+    url: "https://www.philippjenny.de/3d-animation",
   },
   {
     title: "paX anders",
@@ -28,6 +30,7 @@ const cutter = [
     img2: "img/paxan2.png",
     img3: "img/paxan3.png",
     img4: "img/paxan1.png",
+    url: "https://www.philippjenny.de/pax-anders",
   },
 ];
 
@@ -41,6 +44,7 @@ const webDev = [
     img2: "img/sb2.jpg",
     img3: "img/sb3.jpg",
     img4: "img/sb1.jpg",
+    url: "https://www.philippjenny.de/starbucks",
   },
   {
     title: "WLAN <br /> Dashboard",
@@ -51,6 +55,7 @@ const webDev = [
     img2: false,
     img3: false,
     img4: "img/earth.png",
+    url: "https://www.philippjenny.de/earth",
   },
   {
     title: "portfolio",
@@ -61,6 +66,7 @@ const webDev = [
     img2: "img/pj2.png",
     img3: "img/pj3.png",
     img4: "img/pj1.png",
+    url: "https://www.philippjenny.de/portfolio",
   },
 ];
 
@@ -74,6 +80,7 @@ const grafik = [
     img2: "img/jef2.png",
     img3: "img/jef3.png",
     img4: "img/jef1.png",
+    url: "https://www.philippjenny.de/je-freizeit",
   },
   {
     title: "earth <br /> in layers",
@@ -84,6 +91,7 @@ const grafik = [
     img2: false,
     img3: false,
     img4: "img/earth.png",
+    url: "https://www.philippjenny.de/earth",
   },
   {
     title: "paX anders",
@@ -94,6 +102,6 @@ const grafik = [
     img2: "img/paxan2.png",
     img3: "img/paxan3.png",
     img4: "img/paxan1.png",
+    url: "https://www.philippjenny.de/pax-anders",
   },
 ];
-
