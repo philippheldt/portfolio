@@ -1,7 +1,7 @@
 {
   "articles": [
     {
-      "presetName": "reg_3_large",
+      "presetName": "reg_3_large_i_t",
       "title": true,
       "titleText": "Starbucks Airlines",
       "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
@@ -14,10 +14,23 @@
       "buttonColor": "b-black"
     },
     {
-      "presetName": "reg_3_small",
-      "title": false,
+      "presetName": "reg_3_large_t_i",
+      "title": true,
+      "titleText": "Starbucks Airlines",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/sb1.jpg",
+      "img_2": "img/sb2.jpg",
+      "img_3": "img/sb3.jpg",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
+    },
+    {
+      "presetName": "reg_3_small_i_t",
+      "title": true,
       "titleText": "This is the Title",
-      "regText": "This is the regular Text",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
       "img_1": "img/paxan1.png",
       "img_2": "img/paxan2.png",
       "img_3": "img/paxan3.png",
@@ -25,6 +38,100 @@
       "buttonText": "This is the Button Text",
       "buttonLink": "https://www.google.com",
       "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "reg_3_small_t_i",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/paxan1.png",
+      "img_2": "img/paxan2.png",
+      "img_3": "img/paxan3.png",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "reg_2_i_t",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/paxan1.png",
+      "img_2": "img/paxan1.png",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "reg_2_t_i",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/paxan1.png",
+      "img_2": "img/paxan1.png",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "reg_1_i_t",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/sb1.jpg",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "reg_1_t_i",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/sb1.jpg",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
+    },
+    {
+      "presetName": "wide_1_i_t",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/jef4_3.jpg",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
+    },
+    {
+      "presetName": "wide_1_t_i",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/jef4_3.jpg",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
+    },
+    {
+      "presetName": "full_1",
+      "title": true,
+      "titleText": "This is the Title",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "video": false,
+      "vid_1": "img/world_animation.mp4",
+      "img_1": "img/earth.png",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-white"
     }
   ]
 }

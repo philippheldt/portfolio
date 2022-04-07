@@ -55,7 +55,7 @@
   }
 }
 
-#portfolio {
+.portfolio {
   opacity: 1;
   transition: all 0.5s ease;
   .gallery {
@@ -79,6 +79,14 @@
   z-index: -1;
 }
 
+.img-frame {
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  z-index: -1;
+}
+
 .video-teaser-frame {
   grid-row: 1 / 2;
   grid-column: 1 / 13;
@@ -88,8 +96,6 @@
   height: 100%;
   z-index: -1;
 }
-
-
 
 .white {
   color: #fff;

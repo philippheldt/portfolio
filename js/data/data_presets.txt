@@ -1,9 +1,15 @@
 Presets:
 
-reg_1
 full_1
+wide_1_i_t
+wide_1_t_i
+reg_1_i_t
+reg_1_t_i
 
-reg_2
+reg_2_i_t
+reg_2_t_i
 
-reg_3_small
-reg_3_large
+reg_3_small_i_t
+reg_3_small_t_i
+reg_3_large_i_t
+reg_3_large_t_i
