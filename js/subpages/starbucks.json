@@ -14,7 +14,7 @@
       "buttonColor": "b-black"
     },
     {
-      "presetName": "reg_3_large",
+      "presetName": "reg_3_small",
       "title": false,
       "titleText": "This is the Title",
       "regText": "This is the regular Text",
