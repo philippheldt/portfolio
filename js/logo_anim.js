@@ -63,9 +63,9 @@ window.addEventListener("load", function () {
 });
 
 function animateYellow(url) {
-  document.querySelector(".page-loader").style.display = "block";
-  document.querySelector(".page-loader").classList.add("opacity-down-2");
-  setTimeout(function () {
-    window.location.href = url;
-  }, 500);
+  // document.querySelector(".page-loader").style.display = "block";
+  // document.querySelector(".page-loader").classList.add("opacity-down-2");
+  // setTimeout(function () {
+  window.location.href = url;
+  // }, 500);
 }
