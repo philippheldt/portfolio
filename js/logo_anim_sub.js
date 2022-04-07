@@ -7,5 +7,18 @@ window.addEventListener("load", function () {
     path: "animation/logo_black.json",
   });
 
-  animationBlack.playSegments([0, 23], true);
+  const desktopHeader = document.querySelector(".navigation");
+
+  inView.threshold(1);
+  inView.offset(0);
+
+  inView("#start")
+    .on("enter", () => {
+      animationBlack.playSegments([147, 159], true);
+      desktopHeader.classList.remove("visible");
+    })
+    .on("exit", () => {
+      desktopHeader.classList.add("visible");
+      animationBlack.playSegments([0, 23], true);
+    });
 });

@@ -30,6 +30,12 @@
   display: flex;
 }
 
+#start h1 {
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
 #bm {
   max-width: 300px;
   margin: auto;
