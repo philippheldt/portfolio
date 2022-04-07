@@ -17,7 +17,7 @@ function changeContent(indexObj) {
     title.innerHTML = indexObj[i - 1].title;
     text.innerHTML = indexObj[i - 1].text;
     button.innerHTML = indexObj[i - 1].button;
-    button.setAttribute("onclick", "window.location.href = '" + indexObj[i - 1].url + "'");
+    button.setAttribute("onclick", "animateYellow('" + indexObj[i - 1].url + "')");
     img1.setAttribute("src", "" + indexObj[i - 1].img1);
   }
   if (indexObj === webDev) {

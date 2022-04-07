@@ -1,0 +1,32 @@
+$pj-yellow: #fffd63;
+
+.page-loader {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: $pj-yellow;
+  z-index: 100;
+  opacity: 1;
+  transition: all 0.5s ease;
+  div {
+    height: 100%;
+    div {
+      width: 250px;
+      margin: auto;
+    }
+  }
+}
+
+.load-animation {
+  transition: all 0.2s ease-out;
+  opacity: 0;
+  transform: scale(0.5);
+}
+.opacity-up-1 {
+  transform: scale(1);
+  opacity: 1;
+}
+.opacity-down-2 {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
