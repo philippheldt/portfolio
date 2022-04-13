@@ -45,14 +45,14 @@ window.addEventListener("load", function () {
           animationWhite.playSegments([0, 23], true);
           loopWhite = setInterval(loopMiddleWhite, 3000);
           desktopHeader.classList.remove("visible");
-          document.querySelector(".me").style.transform = "translateY(100px) rotate(10deg)";
+          document.querySelector(".me").classList.remove("moved");
         })
         .on("exit", () => {
           clearInterval(loopWhite);
           animationWhite.playSegments([147, 159], true);
           desktopHeader.classList.add("visible");
           animationBlack.playSegments([0, 23], true);
-          document.querySelector(".me").style.transform = "translateY(0px)";
+          document.querySelector(".me").classList.add("moved");
         });
       setTimeout(function () {
         document.querySelector(".page-loader").style.display = "none";

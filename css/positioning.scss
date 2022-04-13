@@ -221,6 +221,9 @@ nav {
     transform: translateY(100px) rotate(5deg);
     transition: all 0.5s ease;
   }
+  .me.moved {
+    transform: translateY(0px);
+  }
 }
 
 .filled {
