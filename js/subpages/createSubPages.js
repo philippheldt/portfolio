@@ -53,7 +53,7 @@ function loadData(dataName) {
 function reg3LI(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i} " class="g-10 portfolio section-sorter">
             <div class="gallery g-6 c1-6">
               <img src="${article.img_1}" class="c-r1-4" id="img1-${i}" alt="" />
               <img src="${article.img_2}" class="c5-6" id="img2-${i}" alt="" />
@@ -79,7 +79,7 @@ function reg3LI(article, i) {
 function reg3LT(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
             <div class="text c1-3">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -105,10 +105,10 @@ function reg3LT(article, i) {
 function reg3SI(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
              <div class="gallery g-6 c1-5">
-              <img id="img1-${i}" src="${article.img_1}" class="c1-6" alt="" />
-              <img id="img2-${i}" src="${article.img_2}" class="c1-3" />
+              <img id="img1-${i}" src="${article.img_1}" class="c1-6-gallery" alt="" />
+              <img id="img2-${i}" src="${article.img_2}" class="c1-3-gallery" />
               <img id="img3-${i}" src="${article.img_3}" class="c4-6" />
             </div>
             <div class="text c6-10">
@@ -131,7 +131,7 @@ function reg3SI(article, i) {
 function reg3ST(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
             <div class="text c1-4">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -140,8 +140,8 @@ function reg3ST(article, i) {
               ${article.button ? article.buttonText : ""}</button>
             </div>
             <div class="gallery g-6 c5-10">
-              <img id="img1-${i}" src="${article.img_1}" class="c1-6" alt="" />
-              <img id="img2-${i}" src="${article.img_2}" class="c1-3" />
+              <img id="img1-${i}" src="${article.img_1}" class="c1-6-gallery" alt="" />
+              <img id="img2-${i}" src="${article.img_2}" class="c1-3-gallery" />
               <img id="img3-${i}" src="${article.img_3}" class="c4-6" />
             </div>
           </section>`
@@ -157,7 +157,7 @@ function reg3ST(article, i) {
 function reg2T(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
             <div class="text c1-4">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -182,7 +182,7 @@ function reg2T(article, i) {
 function reg2I(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
                   <div class="gallery g-6 c1-5">
               <img id="img1-${i}" src="${article.img_1}" class="c1-6" alt="" />
               <img id="img2-${i}" src="${article.img_2}" class="c1-6" />
@@ -208,7 +208,7 @@ function reg2I(article, i) {
 function reg1I(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
                   <div class="gallery g-6 c1-5">
               <img id="img1-${i}" src="${article.img_1}" class="c1-6" alt="" />
             </div>
@@ -233,7 +233,7 @@ function reg1I(article, i) {
 function reg1T(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
               <div class="text c1-4">
                 <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
                 <p id="text-${i}">${article.regText}</p>
@@ -257,7 +257,7 @@ function reg1T(article, i) {
 function wide1I(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
             <div class="gallery g-6 c1-6">
               <img src="${article.img_1}" class="c1-6" id="img1-${i}" alt="" />
             </div>
@@ -281,7 +281,7 @@ function wide1I(article, i) {
 function wide1T(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
             <div class="text c1-3">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -305,14 +305,14 @@ function wide1T(article, i) {
 function full1(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio">
+    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
               <video class="video-frame c1-10 dynamic" id="img1-${i}" src="${
       article.vid_1
     }" autoplay loop muted></video>
             <img src="${article.img_1}" class="video-frame c1-10 dynamic" id="img2-${i}" alt="" />
 
               <div class="filled g-10 c1-10">
-                <div class="text c2-5">
+                <div class="text c2-5 video-button">
                   <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
                    <p id="text-${i}">${article.regText}</p>
                     <button class="${article.buttonColor}" 

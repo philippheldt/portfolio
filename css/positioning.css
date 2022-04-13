@@ -191,6 +191,12 @@ nav {
   grid-column: 1 / 4;
 }
 
+.c1-3-gallery {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+}
+
 .c4-6 {
   -ms-grid-column: 4;
   -ms-grid-column-span: 3;
