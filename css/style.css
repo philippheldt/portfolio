@@ -74,25 +74,6 @@
   width: 100%;
 }
 
-.filled {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2 / 3;
-  color: #fff;
-}
-
-.video-frame {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2 / 3;
-  overflow: hidden;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-  z-index: -1;
-}
-
 .img-frame {
   overflow: hidden;
   width: 100%;

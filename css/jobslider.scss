@@ -1,8 +1,9 @@
 $pj-yellow: #fffd63;
 
 .job-buttons {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+  //make inline
 }
 
 .b-yellow-s {

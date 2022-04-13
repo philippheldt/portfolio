@@ -48,10 +48,6 @@ $pj-yellow: #fffd63;
   grid-template-columns: repeat(12, 1fr);
   column-gap: 1em;
   margin-top: 10vh;
-
-  @media (max-width: 1000px) {
-    margin: 0 10vw;
-  }
 }
 
 .content {
@@ -139,6 +135,9 @@ nav {
 .c1-6 {
   grid-column: 1 / 7;
 }
+.c1-6-gallery {
+  grid-column: 1 / 7;
+}
 
 .c1-3 {
   grid-column: 1 / 4;
@@ -222,4 +221,18 @@ nav {
     transform: translateY(100px) rotate(5deg);
     transition: all 0.5s ease;
   }
+}
+
+.filled {
+  grid-row: 1 / 2;
+  color: #fff;
+}
+
+.video-frame {
+  grid-row: 1 / 2;
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  z-index: -1;
 }

@@ -34,7 +34,5 @@
 
 .opacity-down-2 {
   opacity: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }
 /*# sourceMappingURL=loader.css.map */

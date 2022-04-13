@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/worldmap.css" />
     <link rel="stylesheet" href="css/cvslider.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
     <title>Philipp Jenny | Portfolio</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
   </head>
@@ -27,10 +28,10 @@
       <nav class="navigation">
         <div class="nav-pos">
           <div id="bm-2"></div>
-          <div class="line"></div>
-          <a href="">portfolio</a>
-          <a href="">lebenslauf</a>
-          <a href="">kontakt</a>
+          <div class="line list-items"></div>
+          <a class="list-items" href="">portfolio</a>
+          <a class="list-items" href="">lebenslauf</a>
+          <a class="list-items" href="">kontakt</a>
         </div>
       </nav>
 
@@ -119,7 +120,7 @@
                   <button class="b-yellow-s" id="j-left">&lt;</button>
                   <div class="b-gray-s">
                     <div class="slider-b p-1">
-                      <div class="b-element">Frontend-Webdeveloper</div>
+                      <div class="b-element">Frontend-Developer</div>
                       <div class="b-element">Grafikdesigner</div>
                       <div class="b-element">Cutter</div>
                     </div>
@@ -128,8 +129,8 @@
                 </div>
               </div>
               <p>
-                und studiere monemtan Online Medien <br />
-                an der <a href="" target="_blank">Hochschule Furtwangen</a> .
+                und studiere monemtan Online Medien an der
+                <a href="" target="_blank">Hochschule Furtwangen</a> .
               </p>
               <button class="b-yellow">Erzähl’ mir mehr! ></button>
               <div class="img-pos-2">
@@ -149,36 +150,42 @@
             </div>
           </section>
 
-          <section id="portfolio" class="g-10 portfolio">
-            <div class="gallery g-6 c1-6">
-              <img src="" class="c-r1-4" id="img1-1" alt="" />
-              <img src="" class="c5-6" id="img2-1" alt="" />
-              <img src="" class="c5-6" id="img3-1" alt="" />
-            </div>
-            <div class="text c7-10">
-              <h2 id="title-1"></h2>
-              <p id="text-1"></p>
-              <button class="b-black" id="button-1"></button>
-            </div>
-
-            <video class="video-frame c1-10" id="img1-2" src="" autoplay loop muted></video>
-
-            <div class="filled g-10 c1-10">
-              <div class="text c2-5">
-                <h2 id="title-2"></h2>
-                <p id="text-2"></p>
-                <button class="b-white" id="button-2"></button>
+          <section id="portfolio" class="portfolio">
+            <div class="g-10 section-sorter">
+              <div class="gallery g-6 c1-6">
+                <img src="" class="c-r1-4" id="img1-1" alt="" />
+                <img src="" class="c5-6" id="img2-1" alt="" />
+                <img src="" class="c5-6" id="img3-1" alt="" />
+              </div>
+              <div class="text c7-10">
+                <h2 id="title-1"></h2>
+                <p id="text-1"></p>
+                <button class="b-black" id="button-1"></button>
               </div>
             </div>
-            <div class="text c1-4">
-              <h2 id="title-3"></h2>
-              <p id="text-3"></p>
-              <button class="b-black" id="button-3"></button>
+
+            <div class="g-10 section-sorter">
+              <video class="video-frame c1-10" id="img1-2" src="" autoplay loop muted></video>
+
+              <div class="filled g-10 c1-10">
+                <div class="text c2-5 video-button">
+                  <h2 id="title-2"></h2>
+                  <p id="text-2"></p>
+                  <button class="b-white" id="button-2"></button>
+                </div>
+              </div>
             </div>
-            <div class="gallery g-6 c5-10">
-              <img id="img1-3" src="" class="c1-6" alt="" />
-              <img id="img2-3" src="" class="c1-3" />
-              <img id="img3-3" src="" class="c4-6" />
+            <div class="g-10 section-sorter">
+              <div class="text c1-4">
+                <h2 id="title-3"></h2>
+                <p id="text-3"></p>
+                <button class="b-black" id="button-3"></button>
+              </div>
+              <div class="gallery g-6 c5-10">
+                <img id="img1-3" src="" class="c1-6-gallery" alt="" />
+                <img id="img2-3" src="" class="c1-3" />
+                <img id="img3-3" src="" class="c4-6" />
+              </div>
             </div>
           </section>
         </div>
@@ -218,7 +225,7 @@
           </div>
         </div>
       </section>
-      <div class="container">
+      <!-- <div class="container">
         <div class="text c1-5" id="lebenslauf">
           <h2>Lebenslauf</h2>
           <div class="cv-buttons">
@@ -252,14 +259,14 @@
             <img id="world-pos" src="img/worldmap.jpg" alt="" />
           </div>
         </div>
-      </div>
+      </div> -->
       <section id="instagram">
-        <img src="img/insta-1.jpg" alt="" />
-        <img src="img/insta-2.jpg" alt="" />
-        <img src="img/insta-3.jpg" alt="" />
-        <img src="img/insta-4.jpg" alt="" />
-        <img src="img/insta-5.jpg" alt="" />
-        <img src="img/insta-6.jpg" alt="" />
+        <img src="img/insta-1.jpg" id="instagram-1" alt="" />
+        <img src="img/insta-2.jpg" id="instagram-2" alt="" />
+        <img src="img/insta-3.jpg" id="instagram-3" alt="" />
+        <img src="img/insta-4.jpg" id="instagram-4" alt="" />
+        <img src="img/insta-5.jpg" id="instagram-5" alt="" />
+        <img src="img/insta-6.jpg" id="instagram-6" alt="" />
       </section>
       <section id="footer">
         <div class="container">
@@ -278,7 +285,7 @@
               design@philippjenny.de <br />
               +49 1517 0096177 <br /><br />
             </p>
-            <a href="">Impressum</a>
+            <a href="">Impressum</a> <br />
             <button class="b-white" onclick="openContact();">Jetzt anschreiben ></button>
           </div>
         </div>

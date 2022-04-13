@@ -11,7 +11,7 @@ const cutter = [
     url: "https://www.philippjenny.de/plantifive",
   },
   {
-    title: "earth <br /> in layers",
+    title: "earth in layers",
     text: "3D-Animation im Rahmen des Studiums, die den Aufbau der Erde erklären soll.",
     button: "Ich habe Explosion gehört? >",
     buttonHref: "#",
@@ -47,7 +47,7 @@ const webDev = [
     url: "https://www.philippjenny.de/starbucks",
   },
   {
-    title: "WLAN <br /> Dashboard",
+    title: "WLAN Dashboard",
     text: "3D-Animation im Rahmen des Studiums, die den Aufbau der Erde erklären soll.",
     button: "Das will ich ausprobieren! >",
     buttonHref: "#",
