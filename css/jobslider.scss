@@ -18,6 +18,10 @@ $pj-yellow: #fffd63;
   transition: all 0.5s ease;
 }
 
+#j-left {
+  margin-left: 0;
+}
+
 .b-yellow-s:hover {
   background-color: darken($pj-yellow, 20%);
 }
