@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      "presetName": "text",
+      "title": true,
+      "titleText": "",
+      "regText": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "reg_2_t_i",
+      "title": true,
+      "titleText": "Logo Redesign",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/portfolio/pj_logo_old.jpg",
+      "img_2": "img/portfolio/pj_logo_new.jpg",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "full_1",
+      "title": true,
+      "titleText": "",
+      "regText": "",
+      "video": false,
+      "vid_1": "img/world_animation.mp4",
+      "img_1": "img/portfolio/pj_cd.jpg",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-white"
+    },
+    {
+      "presetName": "reg_3_small_i_t",
+      "title": true,
+      "titleText": "Skizzen & Wireframes",
+      "regText": "„Mixed Brands“ Landingpage für die.",
+      "img_1": "img/portfolio/pj_xd.jpg",
+      "img_2": "img/portfolio/pj_skizze.jpg",
+      "img_3": "img/portfolio/pj_wireframing.jpg",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "full_1",
+      "title": true,
+      "titleText": "Logo Animation",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "video": true,
+      "vid_1": "img/portfolio/pj_animation.mp4",
+      "img_1": "img/portfolio/earth.png",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-white"
+    },
+    {
+      "presetName": "reg_1_t_i",
+      "title": true,
+      "titleText": "Coding",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/portfolio/pj_coding.jpg",
+      "button": true,
+      "buttonText": "Mehr auf GitHub",
+      "buttonLink": "https://github.com/philippjenny/portfolio",
+      "buttonColor": "b-black"
+    },
+    {
+      "presetName": "reg_3_small_i_t",
+      "title": true,
+      "titleText": "External Libraries",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/portfolio/pj_xd.jpg",
+      "img_2": "img/portfolio/pj_skizze.jpg",
+      "img_3": "img/portfolio/pj_wireframing.jpg",
+      "button": true,
+      "buttonText": "Verwendete Libraries",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "wide_1_t_i",
+      "title": true,
+      "titleText": "Fertige Seite",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/portfolio/pj_final.jpg",
+      "button": true,
+      "buttonText": "Zur Seite",
+      "buttonLink": "https://www.philippjenny.de",
+      "buttonColor": "b-black"
+    }
+  ]
+}

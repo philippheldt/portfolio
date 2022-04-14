@@ -11,6 +11,9 @@ function loadData(dataName) {
     .then(() => {
       obj.articles.forEach((article) => {
         switch (article.presetName) {
+          case "text":
+            text(article, i);
+            break;
           case "reg_3_large_i_t":
             reg3LI(article, i);
             break;
@@ -50,6 +53,26 @@ function loadData(dataName) {
     });
 }
 
+function text(article, i) {
+  app.insertAdjacentHTML(
+    "beforeend",
+    `<section id="portfolio-${i} " class="c1-12 portfolio section-sorter">
+            <div class="text c7-10">
+              <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
+              <p id="text-${i}">${article.regText}</p>
+              <button class="${article.buttonColor}" 
+              id="button-${i}" onclick="window.location.href = '${article.buttonLink}';">
+              ${article.button ? article.buttonText : ""}</button>
+            </div>
+          </section>`
+  );
+  !article.title
+    ? (document.querySelector("#title-" + i).style.display = "none")
+    : (document.querySelector("#title-" + i).style.display = "grid");
+  !article.button
+    ? (document.querySelector("#button-" + i).style.display = "none")
+    : (document.querySelector("#button-" + i).style.display = "grid");
+}
 function reg3LI(article, i) {
   app.insertAdjacentHTML(
     "beforeend",

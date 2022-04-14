@@ -132,6 +132,17 @@
       "buttonText": "This is the Button Text",
       "buttonLink": "https://www.google.com",
       "buttonColor": "b-white"
+    },
+    {
+      "presetName": "reg_1_t_i",
+      "title": true,
+      "titleText": "Coding",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/sb1.jpg",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
     }
   ]
 }
