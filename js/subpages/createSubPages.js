@@ -308,7 +308,7 @@ function full1(article, i) {
     `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
               <video class="video-frame c1-10 dynamic" id="img1-${i}" src="${
       article.vid_1
-    }" autoplay loop muted></video>
+    }" autoplay loop muted playsinline></video>
             <img src="${article.img_1}" class="video-frame c1-10 dynamic" id="img2-${i}" alt="" />
 
               <div class="filled g-10 c1-10">
