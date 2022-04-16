@@ -56,7 +56,7 @@ function loadData(dataName) {
 function text(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i} " class="c1-12 portfolio section-sorter">
+    `<section id="portfolio-${i} " class="c1-12 portfolio subpage-section-sorter">
             <div class="text c7-10">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -76,7 +76,7 @@ function text(article, i) {
 function reg3LI(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i} " class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i} " class="g-10 portfolio subpage-section-sorter">
             <div class="gallery g-6 c1-6">
               <img src="${article.img_1}" class="c-r1-4" id="img1-${i}" alt="" />
               <img src="${article.img_2}" class="c5-6" id="img2-${i}" alt="" />
@@ -102,7 +102,7 @@ function reg3LI(article, i) {
 function reg3LT(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
             <div class="text c1-3">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -128,7 +128,7 @@ function reg3LT(article, i) {
 function reg3SI(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
              <div class="gallery g-6 c1-5">
               <img id="img1-${i}" src="${article.img_1}" class="c1-6-gallery" alt="" />
               <img id="img2-${i}" src="${article.img_2}" class="c1-3-gallery" />
@@ -154,7 +154,7 @@ function reg3SI(article, i) {
 function reg3ST(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
             <div class="text c1-4">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -180,7 +180,7 @@ function reg3ST(article, i) {
 function reg2T(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
             <div class="text c1-4">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -205,7 +205,7 @@ function reg2T(article, i) {
 function reg2I(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
                   <div class="gallery g-6 c1-5">
               <img id="img1-${i}" src="${article.img_1}" class="c1-6" alt="" />
               <img id="img2-${i}" src="${article.img_2}" class="c1-6" />
@@ -231,7 +231,7 @@ function reg2I(article, i) {
 function reg1I(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
                   <div class="gallery g-6 c1-5">
               <img id="img1-${i}" src="${article.img_1}" class="c1-6" alt="" />
             </div>
@@ -256,7 +256,7 @@ function reg1I(article, i) {
 function reg1T(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
               <div class="text c1-4">
                 <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
                 <p id="text-${i}">${article.regText}</p>
@@ -280,7 +280,7 @@ function reg1T(article, i) {
 function wide1I(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
             <div class="gallery g-6 c1-6">
               <img src="${article.img_1}" class="c1-6" id="img1-${i}" alt="" />
             </div>
@@ -304,7 +304,7 @@ function wide1I(article, i) {
 function wide1T(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
             <div class="text c1-3">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
               <p id="text-${i}">${article.regText}</p>
@@ -328,13 +328,13 @@ function wide1T(article, i) {
 function full1(article, i) {
   app.insertAdjacentHTML(
     "beforeend",
-    `<section id="portfolio-${i}" class="g-10 portfolio section-sorter">
+    `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
               <video class="video-frame c1-10 dynamic" id="img1-${i}" src="${
       article.vid_1
     }" autoplay loop muted playsinline></video>
             <img src="${article.img_1}" class="video-frame c1-10 dynamic" id="img2-${i}" alt="" />
 
-              <div class="filled g-10 c1-10">
+              <div class="filled g-10 c1-10" id="text-${i}">
                 <div class="text c2-5 video-button">
                   <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
                    <p id="text-${i}">${article.regText}</p>

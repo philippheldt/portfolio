@@ -21,6 +21,12 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-Regular.ttf);
+  font-weight: 400;
+}
+
 h1,
 h2,
 h3,
@@ -59,7 +65,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: inherit;
   font-weight: bold;
   position: relative;
 }
@@ -84,6 +90,15 @@ a:hover::before {
   opacity: 1;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+em {
+  font-style: normal;
+  font-family: "RobotoMono";
+  background-color: #ebebeb;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 0.5px solid #8d8d8d;
 }
 
 .overflow-control {
