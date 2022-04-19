@@ -23,7 +23,8 @@
   .c10-12,
   .c5-10,
   .c4-10,
-  .c6-10 {
+  .c6-10,
+  .c2-11 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
     grid-column: 1 / 13;
