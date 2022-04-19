@@ -160,6 +160,12 @@ nav {
   width: 100%;
 }
 
+.c2-11 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2 / 12;
+}
+
 .c3-4 {
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
@@ -244,6 +250,12 @@ nav {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1 / 11;
+}
+
+.c1-12 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / 13;
 }
 
 .s-height {

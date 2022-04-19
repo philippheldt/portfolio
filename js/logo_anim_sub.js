@@ -21,4 +21,10 @@ window.addEventListener("load", function () {
       desktopHeader.classList.add("visible");
       animationBlack.playSegments([0, 23], true);
     });
+
+  inView("#start-imp")
+    .on("enter", () => {
+      desktopHeader.classList.add("visible");
+      animationBlack.playSegments([22, 23], true);
+    })
 });

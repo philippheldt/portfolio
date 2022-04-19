@@ -123,6 +123,10 @@ nav {
   width: 100%;
 }
 
+.c2-11 {
+  grid-column: 2 / 12;
+}
+
 .c3-4 {
   grid-column: 3 / 5;
   width: 100%;
@@ -178,6 +182,9 @@ nav {
 .c1-10 {
   grid-column: 1 / 11;
 }
+.c1-12 {
+  grid-column: 1 / 13;
+}
 
 .s-height {
   min-height: 50vh;
@@ -187,7 +194,6 @@ nav {
   margin: 80px 0;
   position: relative;
 }
-
 
 .text {
   margin: auto 0;
