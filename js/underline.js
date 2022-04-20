@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
   inView.threshold(1);
-  inView.offset(150);
+  inView.offset(0);
 
   inView("#title-0")
     .on("enter", () => {

@@ -10,8 +10,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-2::before {
@@ -26,8 +28,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-2_5::before {
@@ -42,8 +46,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-3::before {
@@ -58,8 +64,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-3_5::before {
@@ -74,8 +82,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-4::before {
@@ -90,8 +100,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-4_5::before {
@@ -106,8 +118,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-5::before {
@@ -122,8 +136,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-5_5::before {
@@ -138,8 +154,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-6::before {
@@ -154,8 +172,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-6_5::before {
@@ -170,8 +190,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-7::before {
@@ -186,8 +208,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-7_5::before {
@@ -202,8 +226,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-8::before {
@@ -218,8 +244,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-8_5::before {
@@ -234,8 +262,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-9::before {
@@ -250,8 +280,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-9_5::before {
@@ -266,8 +298,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-10::before {
@@ -282,8 +316,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-10_5::before {
@@ -298,8 +334,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-11::before {
@@ -314,8 +352,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-11_5::before {
@@ -330,8 +370,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-12::before {
@@ -346,8 +388,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-12_5::before {
@@ -362,8 +406,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-13::before {
@@ -378,8 +424,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-13_5::before {
@@ -394,8 +442,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-14::before {
@@ -410,8 +460,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-14_5::before {
@@ -426,8 +478,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-15::before {
@@ -442,8 +496,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .underline-15_5::before {
@@ -458,8 +514,10 @@
           transform-origin: left;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
 }
 
 .expanded::before {

@@ -11,6 +11,33 @@
   #me-g .yellow {
     height: 280px;
   }
+  .underline-1_5::before,
+  .underline-2::before,
+  .underline-2_5::before,
+  .underline-3::before,
+  .underline-3_5::before,
+  .underline-4::before,
+  .underline-4_5::before,
+  .underline-5::before,
+  .underline-5_5::before,
+  .underline-6::before,
+  .underline-6_5::before,
+  .underline-7::before,
+  .underline-7_5::before,
+  .underline-8::before,
+  .underline-8_5::before,
+  .underline-9::before,
+  .underline-9_5::before,
+  .underline-10_5::before,
+  .underline-12::before,
+  .underline-12_5::before,
+  .underline-13::before,
+  .underline-13_5::before,
+  .underline-14::before,
+  .underline-14_5::before,
+  .underline-15::before {
+    content: none;
+  }
 }
 
 @media (max-width: 850px) {
@@ -50,6 +77,9 @@
   }
   .list-items {
     display: none;
+  }
+  .menu-icon {
+    display: block;
   }
   #instagram {
     -ms-grid-columns: (1fr)[3];
@@ -152,6 +182,9 @@
   }
   .nav-pos {
     margin: 110px auto 0px auto;
+  }
+  .hamburger {
+    right: 20px;
   }
 }
 /*# sourceMappingURL=mediaqueries.css.map */

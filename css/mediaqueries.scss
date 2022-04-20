@@ -1,3 +1,8 @@
+$pj-yellow: #fffd63;
+$width: 27px;
+$ease: all 0.25s ease-out;
+$delay: 300ms;
+
 @media (max-width: 1000px) {
   .container {
     margin: 9vh 10vw 0 10vw;
@@ -11,6 +16,38 @@
   #me-g {
     .yellow {
       height: 280px;
+    }
+  }
+  .underline-1_5,
+  .underline-2,
+  .underline-2_5,
+  .underline-3,
+  .underline-3_5,
+  .underline-4,
+  .underline-4_5,
+  .underline-5,
+  .underline-5_5,
+  .underline-6,
+  .underline-6_5,
+  .underline-7,
+  .underline-7_5,
+  .underline-8,
+  .underline-8_5,
+  .underline-9,
+  .underline-9_5,
+  .underline-10_5,
+  .underline-12,
+  .underline-12_5,
+  .underline-13,
+  .underline-13_5,
+  .underline-14,
+  .underline-14_5,
+  .underline-15 {
+    &::before {
+      // $width: 2px;
+      content: none;
+      // height: 15px;
+      // top: 20px;
     }
   }
 }
@@ -57,6 +94,9 @@
   }
   .list-items {
     display: none;
+  }
+  .menu-icon {
+    display: block;
   }
 
   #instagram {
@@ -165,5 +205,9 @@
 
   .nav-pos {
     margin: 110px auto 0px auto;
+  }
+
+  .hamburger {
+    right: 20px;
   }
 }

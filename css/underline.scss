@@ -1,6 +1,8 @@
 $pj-yellow: #fffd63;
 $width: 27px;
-$ease: all 0.5s ease-out;
+$widthsmall: 27px;
+$ease: all 0.25s ease-out;
+$delay: 300ms;
 
 .underline-1_5 {
   &::before {
@@ -14,6 +16,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-2 {
@@ -28,6 +31,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-2_5 {
@@ -42,6 +46,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-3 {
@@ -56,6 +61,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-3_5 {
@@ -70,6 +76,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-4 {
@@ -84,6 +91,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-4_5 {
@@ -98,6 +106,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-5 {
@@ -112,6 +121,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-5_5 {
@@ -126,6 +136,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-6 {
@@ -140,6 +151,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-6_5 {
@@ -154,6 +166,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-7 {
@@ -168,6 +181,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-7_5 {
@@ -182,6 +196,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-8 {
@@ -196,6 +211,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-8_5 {
@@ -210,6 +226,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-9 {
@@ -224,6 +241,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-9_5 {
@@ -238,6 +256,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 
@@ -253,6 +272,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-10_5 {
@@ -267,6 +287,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-11 {
@@ -281,6 +302,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-11_5 {
@@ -295,6 +317,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-12 {
@@ -309,6 +332,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-12_5 {
@@ -323,6 +347,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-13 {
@@ -337,6 +362,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-13_5 {
@@ -351,6 +377,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-14 {
@@ -365,6 +392,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-14_5 {
@@ -379,6 +407,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 
@@ -394,6 +423,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 .underline-15_5 {
@@ -408,6 +438,7 @@ $ease: all 0.5s ease-out;
     transform-origin: left;
     transform: scaleX(0);
     transition: $ease;
+    transition-delay: $delay;
   }
 }
 
