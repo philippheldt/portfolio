@@ -11,6 +11,21 @@
       "buttonColor": "b-yellow"
     },
     {
+      "presetName": "full_1",
+      "title": false,
+      "titleText": "Hallo!",
+      "textBackground": false,
+      "text": false,
+      "regText": "",
+      "video": false,
+      "vid_1": "img/world_animation.mp4",
+      "img_1": "img/portfolio/pj_responsive.png",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-white"
+    },
+    {
       "presetName": "reg_2_t_i",
       "title": true,
       "titleText": "Redesign",
@@ -24,17 +39,18 @@
     },
     {
       "presetName": "full_1",
-      "title": false,
-      "titleText": "",
-      "text": false,
-      "regText": "",
+      "title": true,
+      "titleText": "Skizzen",
+      "text": true,
+      "textBackground": true,
+      "regText": "Der Vorteil an einer komplett eigenen Seite: Man kann sie genau so gestalten, wie man es möchte (mit a",
       "video": false,
       "vid_1": "img/world_animation.mp4",
       "img_1": "img/portfolio/pj_cd.jpg",
-      "button": false,
+      "button": true,
       "buttonText": "This is the Button Text",
       "buttonLink": "https://www.google.com",
-      "buttonColor": "b-white"
+      "buttonColor": "b-black"
     },
     {
       "presetName": "reg_3_small_i_t",
@@ -54,6 +70,7 @@
       "title": true,
       "titleText": "Logo Animation",
       "regText": "Nachdem das Design stand, ging es an meine (mindestens) dritt-liebste Beschäftigung: Animation! Die SVG-Animation sollte später nämlich mit der library <a href='https://github.com/lottiefiles' target='_blank'>„Lottie“</a> eingebunden werden.",
+      "textBackground": false,
       "video": true,
       "vid_1": "img/portfolio/pj_animation.mp4",
       "img_1": "img/portfolio/earth.png",

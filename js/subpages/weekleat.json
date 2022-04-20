@@ -3,12 +3,27 @@
     {
       "presetName": "text",
       "title": true,
-      "titleText": "",
+      "titleText": "Der Titel",
       "regText": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.",
       "button": false,
       "buttonText": "This is the Button Text",
       "buttonLink": "https://www.google.com",
       "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "full_1",
+      "title": false,
+      "titleText": "Hallo!",
+      "textBackground": false,
+      "text": false,
+      "regText": "",
+      "video": false,
+      "vid_1": "img/world_animation.mp4",
+      "img_1": "img/weekleat/weekleat_timeline.png",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-white"
     },
     {
       "presetName": "reg_3_large_t_i",

@@ -1,0 +1,41 @@
+.secondary-nav {
+  background-color: #fffd63;
+  color: black;
+  height: 50vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+}
+
+.secondary-nav .container a {
+  font-family: "fatfrank", sans-serif;
+  font-size: 3rem;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 11;
+  grid-column: 1 / 12;
+  margin-bottom: 25px;
+}
+
+.secondary-nav .container a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 30px;
+  z-index: -1;
+  background-color: #fff;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.secondary-nav .container a:hover::before {
+  opacity: 1;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+/*# sourceMappingURL=navigation.css.map */

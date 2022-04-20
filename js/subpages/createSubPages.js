@@ -291,7 +291,7 @@ function full1(article, i) {
             <img src="${article.img_1}" class="video-frame c1-10 dynamic" id="img2-${i}" alt="" />
 
               <div class="filled g-10 c1-10" id="text-${i}">
-                <div class="text c2-5 video-button">
+                <div class="text c2-6 video-button" id="background-${i}">
                   <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
                    <p id="text-${i}">${article.regText}</p>
                     <button class="${article.buttonColor}" 
@@ -303,6 +303,9 @@ function full1(article, i) {
   );
   titleButtonQuery(article, i);
   addingUnderline(article, i);
+  article.textBackground
+    ? document.querySelector("#background-" + i).classList.add("white-background")
+    : document.querySelector("#background-" + i).classList.remove("white-background");
   !article.video
     ? (document.querySelector("#img2-" + i).style.display = "grid")
     : (document.querySelector("#img1-" + i).style.display = "grid");

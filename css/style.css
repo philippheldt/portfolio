@@ -105,4 +105,10 @@
 #start-imp {
   margin: 100px 0;
 }
+
+.white-background {
+  color: #000;
+  background-color: #fff;
+  padding: 50px;
+}
 /*# sourceMappingURL=style.css.map */

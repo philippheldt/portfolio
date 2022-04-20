@@ -1,0 +1,38 @@
+$pj-yellow: #fffd63;
+
+.secondary-nav {
+  background-color: $pj-yellow;
+  color: black;
+  height: 50vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  .container {
+    a {
+      font-family: "fatfrank", sans-serif;
+      font-size: 3rem;
+      grid-column: 1 / 12;
+      margin-bottom: 25px;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        top: 30px;
+        z-index: -1;
+        background-color: #fff;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: all 0.3s ease-out;
+      }
+
+      &:hover {
+        &::before {
+          opacity: 1;
+          transform: scaleX(1);
+        }
+      }
+    }
+  }
+}
