@@ -1,0 +1,419 @@
+$pj-yellow: #fffd63;
+$width: 27px;
+$ease: all 0.5s ease-out;
+
+.underline-1_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 1.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-2 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 2;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-2_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 2.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-3 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 3;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-3_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 3.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-4 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 4;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-4_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 4.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-5_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 5.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-6 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 6;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-6_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 6.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-7 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 7;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-7_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 7.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-8 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 8;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-8_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 8.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-9 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 9;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-9_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 9.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+
+.underline-10 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 10;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-10_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 10.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-11 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 11;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-11_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 11.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-12 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 12;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-12_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 12.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-13 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 13;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-13_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 13.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-14 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 14;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-14_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 14.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+
+.underline-15 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 14;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+.underline-15_5 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: $width * 15.5;
+    height: 20px;
+    top: 30px;
+    z-index: -1;
+    background-color: $pj-yellow;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $ease;
+  }
+}
+
+.expanded {
+  &::before {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}

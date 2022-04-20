@@ -66,12 +66,8 @@ function text(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 function reg3LI(article, i) {
   app.insertAdjacentHTML(
@@ -91,12 +87,8 @@ function reg3LI(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function reg3LT(article, i) {
@@ -117,12 +109,8 @@ function reg3LT(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function reg3SI(article, i) {
@@ -143,12 +131,8 @@ function reg3SI(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function reg3ST(article, i) {
@@ -169,12 +153,8 @@ function reg3ST(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function reg2T(article, i) {
@@ -194,12 +174,8 @@ function reg2T(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function reg2I(article, i) {
@@ -220,12 +196,8 @@ function reg2I(article, i) {
       
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function reg1I(article, i) {
@@ -245,12 +217,8 @@ function reg1I(article, i) {
       
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function reg1T(article, i) {
@@ -269,12 +237,8 @@ function reg1T(article, i) {
               </div>
             </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function wide1I(article, i) {
@@ -293,12 +257,8 @@ function wide1I(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function wide1T(article, i) {
@@ -317,12 +277,8 @@ function wide1T(article, i) {
             </div>
           </section>`
   );
-  !article.title
-    ? (document.querySelector("#title-" + i).style.display = "none")
-    : (document.querySelector("#title-" + i).style.display = "grid");
-  !article.button
-    ? (document.querySelector("#button-" + i).style.display = "none")
-    : (document.querySelector("#button-" + i).style.display = "grid");
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
 }
 
 function full1(article, i) {
@@ -345,13 +301,50 @@ function full1(article, i) {
               </div>
           </section>`
   );
+  titleButtonQuery(article, i);
+  addingUnderline(article, i);
+  !article.video
+    ? (document.querySelector("#img2-" + i).style.display = "grid")
+    : (document.querySelector("#img1-" + i).style.display = "grid");
+}
+
+function titleButtonQuery(article, i) {
   !article.title
     ? (document.querySelector("#title-" + i).style.display = "none")
     : (document.querySelector("#title-" + i).style.display = "grid");
   !article.button
     ? (document.querySelector("#button-" + i).style.display = "none")
     : (document.querySelector("#button-" + i).style.display = "grid");
-  !article.video
-    ? (document.querySelector("#img2-" + i).style.display = "grid")
-    : (document.querySelector("#img1-" + i).style.display = "grid");
+}
+
+function addingUnderline(article, i) {
+  const titleElement = document.querySelector("#title-" + i);
+  const titleArray = titleElement.innerHTML.split(" ");
+  const titleSubtractorl = titleArray[0].split("l").length - 1;
+  const titleSubtractori = titleArray[0].split("i").length - 1;
+  const titleSubtractorI = titleArray[0].split("I").length - 1;
+  const titleSubtractorj = titleArray[0].split("j").length - 1;
+  const titleSubtractort = titleArray[0].split("t").length - 1;
+  const titleSubtractorf = titleArray[0].split("f").length - 1;
+  const titleAdditionW = titleArray[0].split("W").length - 1;
+  const titleAdditionD = titleArray[0].split("D").length - 1;
+  const titleAdditionR = titleArray[0].split("R").length - 1;
+  const titleSubtractor =
+    (titleSubtractorl +
+      titleSubtractori +
+      titleSubtractorI +
+      titleSubtractorj +
+      titleSubtractort +
+      titleSubtractorf -
+      titleAdditionW -
+      titleAdditionD -
+      titleAdditionR) /
+    2;
+  const titleLength = titleArray[0].length - titleSubtractor;
+  if (article.title) {
+    let titleLengthString = String(titleLength);
+    titleLengthString = titleLengthString.replace(".", "_");
+    console.log(titleLengthString);
+    titleElement.classList.add("underline-" + titleLengthString);
+  }
 }

@@ -65,7 +65,7 @@
     {
       "presetName": "wide_1_i_t",
       "title": true,
-      "titleText": "Skill-Slider",
+      "titleText": "Skill Slider",
       "regText": "Um die Breite meiner Skills darzustellen, gibt es auf der Startseite im Vorstellungstext die Möglichkeit zwischen diesen zu wechseln. Je nach gewähltem Skill, passen sich die Inhalte der Seite dynamisch an.",
       "img_1": "img/portfolio/pj_jobs.jpg",
       "button": false,
