@@ -74,9 +74,9 @@ function reg3LI(article, i) {
     "beforeend",
     `<section id="portfolio-${i} " class="g-10 portfolio subpage-section-sorter">
             <div class="gallery g-6 c1-6">
-              <img src="${article.img_1}" class="c-r1-4" id="img1-${i}" alt="" />
-              <img src="${article.img_2}" class="c5-6" id="img2-${i}" alt="" />
-              <img src="${article.img_3}" class="c5-6" id="img3-${i}" alt="" />
+              <img loading="lazy" src="${article.img_1}" class="c-r1-4" id="img1-${i}" alt="" />
+              <img loading="lazy" src="${article.img_2}" class="c5-6" id="img2-${i}" alt="" />
+              <img loading="lazy" src="${article.img_3}" class="c5-6" id="img3-${i}" alt="" />
             </div>
             <div class="text c7-10">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
@@ -103,9 +103,9 @@ function reg3LT(article, i) {
               ${article.button ? article.buttonText : ""}</button>
             </div>
             <div class="gallery g-6 c4-10">
-              <img src="${article.img_1}" class="c-r3-6" id="img1-${i}" alt="" />
-              <img src="${article.img_2}" class="c1-2" id="img2-${i}" alt="" />
-              <img src="${article.img_3}" class="c1-2" id="img3-${i}" alt="" />
+              <img loading="lazy" src="${article.img_1}" class="c-r3-6" id="img1-${i}" alt="" />
+              <img loading="lazy" src="${article.img_2}" class="c1-2" id="img2-${i}" alt="" />
+              <img loading="lazy" src="${article.img_3}" class="c1-2" id="img3-${i}" alt="" />
             </div>
           </section>`
   );
@@ -246,7 +246,7 @@ function wide1I(article, i) {
     "beforeend",
     `<section id="portfolio-${i}" class="g-10 portfolio subpage-section-sorter">
             <div class="gallery g-6 c1-6">
-              <img src="${article.img_1}" class="c1-6" id="img1-${i}" alt="" />
+              <img loading="lazy" src="${article.img_1}" class="c1-6" id="img1-${i}" alt="" />
             </div>
             <div class="text c7-10">
               <h2 id="title-${i}">${article.title ? article.titleText : ""}</h2>
@@ -273,7 +273,7 @@ function wide1T(article, i) {
               ${article.button ? article.buttonText : ""}</button>
             </div>
             <div class="gallery g-6 c4-10">
-             <img src="${article.img_1}" class="c1-6" id="img1-${i}" alt="" />
+             <img loading="lazy" src="${article.img_1}" class="c1-6" id="img1-${i}" alt="" />
             </div>
           </section>`
   );
@@ -288,7 +288,9 @@ function full1(article, i) {
               <video class="video-frame c1-10 dynamic" id="img1-${i}" src="${
       article.vid_1
     }" autoplay loop muted playsinline></video>
-            <img src="${article.img_1}" class="video-frame c1-10 dynamic" id="img2-${i}" alt="" />
+            <img loading="lazy" src="${
+              article.img_1
+            }" class="video-frame c1-10 dynamic" id="img2-${i}" alt="" />
 
               <div class="filled g-10 c1-10" id="text-${i}">
                 <div class="text c2-6 video-button" id="background-${i}">
