@@ -5,6 +5,10 @@ $pj-yellow: #fffd63;
   padding: 0px;
 }
 
+:root {
+  color-scheme: dark light;
+}
+
 @font-face {
   font-family: Euclid;
   src: url(../fonts/EuclidCircularSemiRegular.ttf);
@@ -61,7 +65,6 @@ p {
 }
 
 body {
-  background-color: #fff;
   font-family: "Euclid", sans-serif;
 }
 
