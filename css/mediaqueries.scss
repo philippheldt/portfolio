@@ -213,3 +213,24 @@ $delay: 300ms;
     right: 20px;
   }
 }
+
+// @media (prefers-color-scheme: dark) {
+//   body {
+//     background-color: #121213;
+//   }
+//   nav {
+//     background-color: #202124;
+//   }
+//   .b-black {
+//     background-color: #fff;
+//     color: #000;
+//   }
+//   .b-black:hover {
+//     background-color: darken(#fff, 10%);
+//     box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.466);
+//   }
+//   em {
+//     background-color: lighten(#121213, 5%);
+//     border-color: lighten(#121213, 30%);
+//   }
+// }
