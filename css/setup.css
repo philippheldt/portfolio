@@ -3,10 +3,6 @@
   padding: 0px;
 }
 
-:root {
-  color-scheme: dark light;
-}
-
 @font-face {
   font-family: Euclid;
   src: url(../fonts/EuclidCircularSemiRegular.ttf);
