@@ -1,0 +1,52 @@
+{
+  "articles": [
+    {
+      "presetName": "reg_3_large_i_t",
+      "title": true,
+      "titleText": "Kochbuch",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/weekleat/images/weekleat_title.jpg",
+      "img_2": "img/weekleat/images/weekleat_icon.jpg",
+      "img_3": "img/weekleat/images/weekleat_cards.jpg",
+      "button": true,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
+    },
+    {
+      "presetName": "reg_3_small_i_t",
+      "title": true,
+      "titleText": "Skizzen",
+      "regText": "„Mixed Brands“ Landingpage für die.",
+      "img_1": "img/portfolio/pj_xd.jpg",
+      "img_2": "img/portfolio/pj_skizze.jpg",
+      "img_3": "img/portfolio/pj_wireframing.jpg",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "wide_1_t_i",
+      "title": true,
+      "titleText": "Prototyping",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/weekleat/weekleat_xd.jpg",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-white"
+    },
+    {
+      "presetName": "wide_1_i_t",
+      "title": true,
+      "titleText": "Next up",
+      "regText": "„Mixed Brands“ Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
+      "img_1": "img/portfolio/pj_final.jpg",
+      "button": true,
+      "buttonText": "Mehr auf GitHub",
+      "buttonLink": "https://github.com/philippjenny/portfolio",
+      "buttonColor": "b-black"
+    }
+  ]
+}

@@ -36,15 +36,15 @@ const cutter = [
 
 const webDev = [
   {
-    title: "Starbucks Airlines",
+    title: "Weekleat App",
     text: "„Mixed Brands“ <br /> Landingpage für die imaginäre Starbucks Airlines im Rahmen des Studiums.",
-    button: "Kaffee? Fliegen? >",
+    button: "Zur App >",
     buttonHref: "#",
-    img1: "img/sb1.jpg",
-    img2: "img/sb2.jpg",
-    img3: "img/sb3.jpg",
-    img4: "img/sb1.jpg",
-    url: "https://www.philippjenny.de/starbucks",
+    img1: "img/weekleat/images/weekleat_title.jpg",
+    img2: "img/weekleat/images/weekleat_icon.jpg",
+    img3: "img/weekleat/images/weekleat_cards.jpg",
+    img4: false,
+    url: "https://www.philippjenny.de/weekleat",
   },
   {
     title: "WLAN Dashboard",
