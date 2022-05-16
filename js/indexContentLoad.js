@@ -21,45 +21,51 @@ function changeContent(indexObj) {
     img1.setAttribute("src", "" + indexObj[i - 1].img1);
   }
   if (indexObj === webDev) {
-    for (let i = 1; i < 7; i++) {
-      if (i < 4) {
+    for (let i = 1; i < 9; i++) {
+      if (i < 5) {
         let obj1 = document.querySelector(".more-obj-" + i);
         let btn1 = document.querySelector("#m-button-" + i);
         obj1.style.backgroundImage = "url('" + cutter[i - 1].img4 + "')";
         btn1.innerHTML = cutter[i - 1].buttonLabel;
+        btn1.setAttribute("onclick", "animateYellow('" + cutter[i - 1].url + "')");
       } else {
         let obj2 = document.querySelector(".more-obj-" + i);
         let btn2 = document.querySelector("#m-button-" + i);
-        obj2.style.backgroundImage = "url('" + grafik[i - 4].img4 + "')";
-        btn2.innerHTML = grafik[i - 4].buttonLabel;
+        obj2.style.backgroundImage = "url('" + grafik[i - 5].img4 + "')";
+        btn2.innerHTML = grafik[i - 5].buttonLabel;
+        btn2.setAttribute("onclick", "animateYellow('" + grafik[i - 5].url + "')");
       }
     }
   } else if (indexObj === grafik) {
-    for (let i = 1; i < 7; i++) {
-      if (i < 4) {
+    for (let i = 1; i < 9; i++) {
+      if (i < 5) {
         let obj1 = document.querySelector(".more-obj-" + i);
         let btn1 = document.querySelector("#m-button-" + i);
         btn1.innerHTML = webDev[i - 1].buttonLabel;
         obj1.style.backgroundImage = "url('" + webDev[i - 1].img4 + "')";
+        btn1.setAttribute("onclick", "animateYellow('" + webDev[i - 1].url + "')");
       } else {
         let btn2 = document.querySelector("#m-button-" + i);
-        btn2.innerHTML = cutter[i - 4].buttonLabel;
+        btn2.innerHTML = cutter[i - 5].buttonLabel;
         let obj2 = document.querySelector(".more-obj-" + i);
-        obj2.style.backgroundImage = "url('" + cutter[i - 4].img4 + "')";
+        obj2.style.backgroundImage = "url('" + cutter[i - 5].img4 + "')";
+        btn2.setAttribute("onclick", "animateYellow('" + cutter[i - 5].url + "')");
       }
     }
   } else if (indexObj === cutter) {
-    for (let i = 1; i < 7; i++) {
-      if (i < 4) {
+    for (let i = 1; i < 9; i++) {
+      if (i < 5) {
         let btn1 = document.querySelector("#m-button-" + i);
         btn1.innerHTML = webDev[i - 1].buttonLabel;
         let obj1 = document.querySelector(".more-obj-" + i);
         obj1.style.backgroundImage = "url('" + webDev[i - 1].img4 + "')";
+        btn1.setAttribute("onclick", "animateYellow('" + webDev[i - 1].url + "')");
       } else {
         let btn2 = document.querySelector("#m-button-" + i);
-        btn2.innerHTML = grafik[i - 4].buttonLabel;
+        btn2.innerHTML = grafik[i - 5].buttonLabel;
         let obj2 = document.querySelector(".more-obj-" + i);
-        obj2.style.backgroundImage = "url('" + grafik[i - 4].img4 + "')";
+        obj2.style.backgroundImage = "url('" + grafik[i - 5].img4 + "')";
+        btn2.setAttribute("onclick", "animateYellow('" + grafik[i - 5].url + "')");
       }
     }
   }
