@@ -269,8 +269,14 @@ nav {
 }
 
 .gallery {
-  margin: 80px 0;
   position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section-sorter {
+  margin: 120px 0px;
 }
 
 .text {

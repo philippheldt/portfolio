@@ -160,6 +160,13 @@ $delay: 300ms;
     grid-row: 2 / 3;
     color: #000;
   }
+
+  .shaddow {
+    filter: none;
+    button:hover {
+      box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.406);
+    }
+  }
 }
 
 @media (max-width: 650px) {

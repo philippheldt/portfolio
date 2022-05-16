@@ -105,4 +105,9 @@ em {
   width: calc(100vw - (100vw - 100%));
   overflow: hidden;
 }
+
+.shaddow {
+  -webkit-filter: drop-shadow(0px 0px 50px black);
+          filter: drop-shadow(0px 0px 50px black);
+}
 /*# sourceMappingURL=setup.css.map */

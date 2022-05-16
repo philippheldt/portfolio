@@ -147,6 +147,14 @@
     grid-row: 2 / 3;
     color: #000;
   }
+  .shaddow {
+    -webkit-filter: none;
+            filter: none;
+  }
+  .shaddow button:hover {
+    -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.406);
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.406);
+  }
 }
 
 @media (max-width: 650px) {

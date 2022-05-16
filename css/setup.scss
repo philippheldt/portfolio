@@ -108,3 +108,7 @@ em {
   width: calc(100vw - (100vw - 100%));
   overflow: hidden;
 }
+
+.shaddow {
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
+}
