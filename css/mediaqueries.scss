@@ -7,6 +7,12 @@ $delay: 300ms;
   .container {
     margin: 9vh 10vw 0 10vw;
   }
+
+  .icon-container {
+    width: 70px;
+    margin-bottom: 10px;
+  }
+
   h1 {
     font-size: 3.5rem;
   }
@@ -67,6 +73,14 @@ $delay: 300ms;
   .c2-11 {
     grid-column: 1 / 13;
     padding: 0;
+  }
+
+  .icon-info {
+    font-size: 10px;
+    opacity: 1;
+  }
+  .info-hover {
+    margin-bottom: 40px;
   }
 
   .img-pos-2 {
@@ -170,6 +184,16 @@ $delay: 300ms;
 }
 
 @media (max-width: 650px) {
+  .icon-container {
+    width: 55px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  .info-hover:hover {
+    margin-bottom: 40px;
+  }
+
   #profile {
     .gallery {
       img {

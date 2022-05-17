@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/underline.css" />
     <link rel="stylesheet" href="css/menu_icon.css" />
+    <link rel="stylesheet" href="css/info-page.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
     <title>Philipp Jenny | Flyer</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
@@ -46,39 +47,6 @@
         </div>
       </nav>
 
-      <div class="overlay" style="display: none">
-        <div class="contact-box">
-          <div class="x" id="x-contact">&#xd7;</div>
-          <div class="more-contact">
-            <h2>Kontakt</h2>
-          </div>
-          <form
-            action="submit"
-            id="kontaktaufnahmen"
-            method="POST"
-            name="kontakaufnahme"
-            data-netlify="true"
-          >
-            <label for="">Name:</label> <br />
-            <input type="text" name="Name" /> <br />
-            <label for="">Wie kann ich dich erreichen?</label> <br />
-
-            <div class="erreichen">
-              <span>E-Mail</span>
-            </div>
-            <input id="erreichen" name="Contact" type="text" /> <br />
-            <label for="">Betreff:</label> <br />
-            <input type="text" name="Subject" /> <br />
-
-            <label for="" name="Message">Nachricht:</label> <br />
-            <textarea form="kontakaufnahmen" style="resize: none" cols="30" rows="10"></textarea>
-            <br />
-            <div class="field" data-netlify-recaptcha="true"></div>
-            <input type="submit" value="Absenden >" class="b-black" />
-          </form>
-        </div>
-      </div>
-
       <div class="container">
         <section id="start">
           <h1 class="page-title">Flyer</h1>
@@ -86,7 +54,59 @@
         <video class="video-teaser-frame c1-10" playsinline autoplay loop muted>
           <source src="img/flyer/flyer_video.mp4" type="" />
         </video>
+      </div>
 
+      <!-- Hier kommt die Info seite -->
+
+      <div class="info-page">
+        <div class="container">
+          <div class="info-content g-10">
+            <h2 class="info-overview">Projekt-Übersicht</h2>
+
+            <p class="info-title">Auftraggeber:</p>
+            <p class="info-text">Jugendverband SWD-EC e.V.</p>
+
+            <p class="info-title">Jahr:</p>
+            <p class="info-text">2016 - 2022</p>
+
+            <p class="info-title">Gebiet:</p>
+            <p class="info-text">Layout</p>
+
+            <p class="info-title">
+              Tools, Technologien <br />
+              & Frameworks:
+            </p>
+            <div class="info-images info-hover">
+              <div class="icon-container">
+                <img
+                  class="icon-img"
+                  src="img/icons/af.png"
+                  onclick="window.open('https://affinity.serif.com/en-gb/designer/', '_blank')"
+                  alt=""
+                />
+                <p class="icon-info">Affinity Designer & Photo</p>
+              </div>
+
+              <div class="icon-container">
+                <img
+                  class="icon-img"
+                  src="img/icons/ps.png"
+                  onclick="window.open('https://www.adobe.com/products/photoshop.html', '_blank')"
+                  alt=""
+                />
+                <p class="icon-info">Adobe Photoshop</p>
+              </div>
+            </div>
+
+            <p class="info-title transform-up">Externe Ressourcen:</p>
+            <p class="info-text transform-up">Fotos für Collagen</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ende der Info seite -->
+
+      <div class="container">
         <div class="content" id="bm-sub"></div>
       </div>
 
