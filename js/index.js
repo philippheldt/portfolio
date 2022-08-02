@@ -122,7 +122,7 @@ const grafik = [
     img2: "img/jef2.png",
     img3: "img/jef3.png",
     img4: "img/jef4_3.jpg",
-    url: "https://www.philippjenny.de/je-freizeit",
+    url: "https://www.philippjenny.de/flyer",
     buttonLabel: "Flyer-Sammlung >",
   },
   {
