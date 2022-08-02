@@ -20,7 +20,7 @@ const cutter = [
     img2: "img/logo/logo_teennight.jpg",
     img3: "img/logo/logo_youpc.jpg",
     img4: "img/logo/logo_tmt.jpg",
-    url: "https://www.philippjenny.de/plantifive",
+    url: "https://www.philippjenny.de/logo_animationen",
     buttonLabel: "Logo Animationen >",
   },
   {
@@ -32,7 +32,7 @@ const cutter = [
     img2: false,
     img3: false,
     img4: "img/earth.png",
-    url: "https://www.philippjenny.de/3d-animation",
+    url: "https://www.philippjenny.de/earth",
     buttonLabel: "earth in layers >",
   },
   {
@@ -44,7 +44,7 @@ const cutter = [
     img2: "img/paxan2.png",
     img3: "img/paxan3.png",
     img4: "img/paxan1.png",
-    url: "https://www.philippjenny.de/pax-anders",
+    url: "https://www.philippjenny.de/paxan",
     buttonLabel: "Nebelleben Poetry >",
   },
 ];
@@ -83,7 +83,7 @@ const webDev = [
     img2: false,
     img3: false,
     img4: "img/wifi/wifi.jpg",
-    url: "https://www.philippjenny.de/earth",
+    url: "https://www.philippjenny.de/wifi",
     buttonLabel: "WLAN Dashboard >",
   },
   {
@@ -110,7 +110,7 @@ const grafik = [
     img2: "img/abenteuer/abenteuer_illu.jpg",
     img3: "img/abenteuer/abenteuer_photo.jpg",
     img4: "img/abenteuer/abenteuer_title_empty.jpg",
-    url: "https://www.philippjenny.de/je-freizeit",
+    url: "https://www.philippjenny.de/abenteuerzeit",
     buttonLabel: "Abenteuerzeit >",
   },
   {
@@ -134,7 +134,7 @@ const grafik = [
     img2: false,
     img3: false,
     img4: "img/four12/four12_logo.jpg",
-    url: "https://www.philippjenny.de/earth",
+    url: "https://www.philippjenny.de/four12",
     buttonLabel: "Four12 >",
   },
   {
@@ -146,7 +146,7 @@ const grafik = [
     img2: "img/devnagari/devnagari_nike.jpg",
     img3: "img/devnagari/devnagari_subway_skizze.jpg",
     img4: "img/devnagari/devnagari_nike.jpg",
-    url: "https://www.philippjenny.de/pax-anders",
+    url: "https://www.philippjenny.de/devnagari",
     buttonLabel: "Devnagari Logos >",
   },
 ];
