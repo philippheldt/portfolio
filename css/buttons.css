@@ -8,14 +8,12 @@
   font-family: "Euclid", sans-serif;
   cursor: pointer;
   margin: 20px 0;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .b-yellow:hover {
   background-color: #fcf900;
-  -webkit-box-shadow: 0px 0px 50px #fffd63;
-          box-shadow: 0px 0px 50px #fffd63;
+  box-shadow: 0px 0px 50px #fffd63;
 }
 
 .b-black {
@@ -28,18 +26,15 @@
   color: #fff;
   cursor: pointer;
   margin: 20px 10px 20px 0px;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 .b-black img {
   width: 17px;
 }
 
 .b-black:hover {
   background-color: #262626;
-  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.406);
-          box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.406);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.406);
 }
 
 .b-white {
@@ -52,14 +47,12 @@
   font-family: "Euclid", sans-serif;
   cursor: pointer;
   margin: 20px 0;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .b-white:hover {
   background-color: #e6e6e6;
-  -webkit-box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.466);
-          box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.466);
+  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.466);
 }
 
 .x {
@@ -81,10 +74,9 @@ label {
 
 input,
 textarea {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: none;
-  background-color: #f0f0f0;
+  background-color: rgb(240, 240, 240);
   padding: 15px;
   font-size: 16px;
   font-family: "Euclid", sans-serif;
@@ -96,13 +88,11 @@ textarea {
   width: 100%;
   position: relative;
 }
-
 .erreichen span {
   position: absolute;
   top: 25px;
   left: 15px;
 }
-
 .erreichen span::after {
   content: "";
   background-color: #a4a4a4;
@@ -114,8 +104,7 @@ textarea {
 }
 
 #erreichen {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 15px 15px 15px 100px;
 }
 
@@ -128,7 +117,6 @@ textarea {
   height: 150px;
 }
 
-input[type="submit"] {
+input[type=submit] {
   width: auto;
-}
-/*# sourceMappingURL=buttons.css.map */
+}/*# sourceMappingURL=buttons.css.map */

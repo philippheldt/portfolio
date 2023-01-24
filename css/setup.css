@@ -8,25 +8,21 @@
   src: url(../fonts/EuclidCircularSemiRegular.ttf);
   font-weight: 400;
 }
-
 @font-face {
   font-family: Euclid;
   src: url(../fonts/EuclidCircularSemiMedium.ttf);
   font-weight: 500;
 }
-
 @font-face {
   font-family: Euclid;
   src: url(../fonts/EuclidCircularBold.ttf);
   font-weight: 700;
 }
-
 @font-face {
   font-family: RobotoMono;
   src: url(../fonts/RobotoMono-Regular.ttf);
   font-weight: 400;
 }
-
 h1,
 h2,
 h3,
@@ -69,7 +65,6 @@ a {
   font-weight: bold;
   position: relative;
 }
-
 a::before {
   content: "";
   position: absolute;
@@ -78,27 +73,22 @@ a::before {
   top: 12px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.3s ease-out;
 }
-
 a:hover::before {
   opacity: 1;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 em {
   font-style: normal;
   font-family: "RobotoMono";
-  background-color: #ebebeb;
+  background-color: rgb(235, 235, 235);
   padding: 2px 8px;
   border-radius: 4px;
-  border: 0.5px solid #8d8d8d;
+  border: 0.5px solid rgb(141, 141, 141);
 }
 
 .overflow-control {
@@ -107,7 +97,5 @@ em {
 }
 
 .shaddow {
-  -webkit-filter: drop-shadow(0px 0px 50px black);
-          filter: drop-shadow(0px 0px 50px black);
-}
-/*# sourceMappingURL=setup.css.map */
+  filter: drop-shadow(0px 0px 50px rgb(0, 0, 0));
+}/*# sourceMappingURL=setup.css.map */

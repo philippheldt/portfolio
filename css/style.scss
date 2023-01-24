@@ -1,4 +1,15 @@
 $pj-yellow: #fffd63;
+$pj-radius: 5px;
+
+img,
+video,
+button,
+.more-wrapper div,
+.yellow,
+.b-gray-s {
+  border-radius: $pj-radius;
+}
+
 //nav
 .line {
   content: "";

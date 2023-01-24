@@ -6,14 +6,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-2::before {
@@ -24,14 +20,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-2_5::before {
@@ -42,14 +34,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-3::before {
@@ -60,14 +48,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-3_5::before {
@@ -78,14 +62,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-4::before {
@@ -96,14 +76,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-4_5::before {
@@ -114,14 +90,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-5::before {
@@ -132,14 +104,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-5_5::before {
@@ -150,14 +118,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-6::before {
@@ -168,14 +132,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-6_5::before {
@@ -186,14 +146,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-7::before {
@@ -204,14 +160,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-7_5::before {
@@ -222,14 +174,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-8::before {
@@ -240,14 +188,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-8_5::before {
@@ -258,14 +202,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-9::before {
@@ -276,14 +216,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-9_5::before {
@@ -294,14 +230,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-10::before {
@@ -312,14 +244,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-10_5::before {
@@ -330,14 +258,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-11::before {
@@ -348,14 +272,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-11_5::before {
@@ -366,14 +286,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-12::before {
@@ -384,14 +300,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-12_5::before {
@@ -402,14 +314,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-13::before {
@@ -420,14 +328,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-13_5::before {
@@ -438,14 +342,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-14::before {
@@ -456,14 +356,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-14_5::before {
@@ -474,14 +370,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-15::before {
@@ -492,14 +384,10 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .underline-15_5::before {
@@ -510,19 +398,13 @@
   top: 30px;
   z-index: -1;
   background-color: #fffd63;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.25s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
   transition: all 0.25s ease-out;
-  -webkit-transition-delay: 300ms;
-          transition-delay: 300ms;
+  transition-delay: 300ms;
 }
 
 .expanded::before {
   opacity: 1;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-/*# sourceMappingURL=underline.css.map */
+  transform: scaleX(1);
+}/*# sourceMappingURL=underline.css.map */

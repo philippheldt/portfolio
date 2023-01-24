@@ -4,48 +4,32 @@
   height: 50vw;
   overflow: hidden;
   border-radius: 100%;
-  -webkit-transform: translateX(20vw);
-          transform: translateX(20vw);
+  transform: translateX(20vw);
 }
-
 .world #world-pos {
   height: 150%;
-  -webkit-transform: translate(-55.6vw, -15.14vh);
-          transform: translate(-55.6vw, -15.14vh);
-  -webkit-transition: all 2s ease;
+  transform: translate(-55.6vw, -15.14vh);
   transition: all 2s ease;
 }
-
 .world #world-localize {
   position: absolute;
   top: 27vh;
   left: 20vw;
   z-index: 20;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 .world #world-localize img {
   width: 20px;
   height: 20px;
   cursor: pointer;
 }
-
 .world #world-localize div {
   opacity: 0;
   margin: 10px;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 .world #world-localize img:hover ~ div {
   opacity: 1;
 }
@@ -54,12 +38,10 @@
   position: relative;
   margin: 0;
 }
-
 .g-absolute #sattellite {
   position: absolute;
   width: 250px;
   top: -500px;
   left: 500px;
   z-index: -1;
-}
-/*# sourceMappingURL=worldmap.css.map */
+}/*# sourceMappingURL=worldmap.css.map */

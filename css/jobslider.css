@@ -1,11 +1,6 @@
 .job-buttons {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .b-yellow-s {
@@ -18,7 +13,6 @@
   font-family: "Euclid", sans-serif;
   cursor: pointer;
   margin: 0 10px;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -41,23 +35,15 @@
   font-size: 16px;
   font-family: "Euclid", sans-serif;
   overflow: hidden;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .slider-b {
   width: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -72,26 +58,18 @@
   height: 110px;
   top: -50px;
   left: -150px;
-  -webkit-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  transform: rotate(-10deg);
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
-
 .img-pos-1 div img {
   opacity: 0;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 .img-pos-1 div img:nth-child(1) {
   opacity: 1;
 }
@@ -103,27 +81,19 @@
   height: 110px;
   bottom: -150px;
   right: -500px;
-  -webkit-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  transform: rotate(-10deg);
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   z-index: 4;
 }
-
 .img-pos-2 div img {
   opacity: 0;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 .img-pos-2 div img:nth-child(1) {
   opacity: 1;
 }
@@ -131,5 +101,4 @@
 #load {
   width: 200px;
   margin: auto;
-}
-/*# sourceMappingURL=jobslider.css.map */
+}/*# sourceMappingURL=jobslider.css.map */
