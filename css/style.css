@@ -7,6 +7,10 @@ button,
   border-radius: 5px;
 }
 
+.instagram img {
+  border-radius: 0px;
+}
+
 .line {
   content: "";
   height: 50px;
