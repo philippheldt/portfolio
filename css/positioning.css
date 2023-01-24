@@ -13,8 +13,8 @@
   z-index: 20;
   background-color: #fff;
   padding: 50px;
-  -webkit-box-shadow: 0 0 50pxrgba 0, 0, 0, 0.406;
-          box-shadow: 0 0 50pxrgba 0, 0, 0, 0.406;
+  -webkit-box-shadow: 0 0 50px rgba 0, 0, 0, 0.406;
+          box-shadow: 0 0 50px rgba 0, 0, 0, 0.406;
 }
 
 .welcome-box h1 {
