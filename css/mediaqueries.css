@@ -16,46 +16,46 @@
     height: 280px;
   }
   .underline-1_5::before,
-.underline-2::before,
-.underline-2_5::before,
-.underline-3::before,
-.underline-3_5::before,
-.underline-4::before,
-.underline-4_5::before,
-.underline-5::before,
-.underline-5_5::before,
-.underline-6::before,
-.underline-6_5::before,
-.underline-7::before,
-.underline-7_5::before,
-.underline-8::before,
-.underline-8_5::before,
-.underline-9::before,
-.underline-9_5::before,
-.underline-10_5::before,
-.underline-12::before,
-.underline-12_5::before,
-.underline-13::before,
-.underline-13_5::before,
-.underline-14::before,
-.underline-14_5::before,
-.underline-15::before {
+  .underline-2::before,
+  .underline-2_5::before,
+  .underline-3::before,
+  .underline-3_5::before,
+  .underline-4::before,
+  .underline-4_5::before,
+  .underline-5::before,
+  .underline-5_5::before,
+  .underline-6::before,
+  .underline-6_5::before,
+  .underline-7::before,
+  .underline-7_5::before,
+  .underline-8::before,
+  .underline-8_5::before,
+  .underline-9::before,
+  .underline-9_5::before,
+  .underline-10_5::before,
+  .underline-12::before,
+  .underline-12_5::before,
+  .underline-13::before,
+  .underline-13_5::before,
+  .underline-14::before,
+  .underline-14_5::before,
+  .underline-15::before {
     content: none;
   }
 }
 @media (max-width: 850px) {
   .c1-6,
-.c7-10,
-.c1-4,
-.c2-5,
-.c2-6,
-.c1-5,
-.c1-3,
-.c10-12,
-.c5-10,
-.c4-10,
-.c6-10,
-.c2-11 {
+  .c7-10,
+  .c1-4,
+  .c2-5,
+  .c2-6,
+  .c1-5,
+  .c1-3,
+  .c10-12,
+  .c5-10,
+  .c4-10,
+  .c6-10,
+  .c2-11 {
     grid-column: 1/13;
     padding: 0;
   }
@@ -96,8 +96,8 @@
     width: 33.3333333333vw;
   }
   #instagram #instagram-4,
-#instagram #instagram-5,
-#instagram #instagram-6 {
+  #instagram #instagram-5,
+  #instagram #instagram-6 {
     display: none;
   }
   .content {
@@ -123,8 +123,8 @@
     transition: all 0.5s ease;
   }
   .b-yellow,
-.b-white,
-.b-black {
+  .b-white,
+  .b-black {
     margin: 20px 10px 0px 0px;
   }
   .gallery {
