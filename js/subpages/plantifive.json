@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "presetName": "text",
+      "title": true,
+      "titleText": "Nachhaltigkeits- und Spendenkampagne",
+      "regText": "Animationsvideo als Werbung für eine Nachhaltigkeits- und Spendenkampagne des Jugendverbands SWD-EC. Es wurde eine Tonspur geliefert, die dann mit einer in After Effects erstellten Animation angereichert wurde. Die Illustrationen wurden mithilfe von Affinity Designer erstellt.",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    }
+  ]
+}

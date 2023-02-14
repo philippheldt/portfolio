@@ -44,6 +44,10 @@ $pj-yellow: #fffd63;
   column-gap: 1em;
   margin-top: 10vh;
 }
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
 
 .content {
   width: 100%;
