@@ -1,0 +1,79 @@
+{
+  "articles": [
+    {
+      "presetName": "text",
+      "title": true,
+      "titleText": "Visueller Auftritt für einen Kindernachmittag",
+      "regText": "Die <a href='https://emmendingen-lgv.org'> Liebenzeller Gemeinschaft Emmendingen </a> veranstaltet jeden Monat einen Kindernachmittag. Es sollte hierfür eine möglichst attraktive Marke für Kinder geschaffen werden, die in unterschiedlichen Medien Anwendung finden kann. Die „Abenteuerzeit“ entstand. Zwei Kinder und ein Papagei begleiten die Teilnehmer:innen durch die Nachmittage und bilden eine Einheit. Diese drei Figuren erleben verschiedene Abenteuer, die vom Weltraum bis in den tiefen Urwald reichen. ",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "full_1",
+      "title": false,
+      "titleText": "Hallo!",
+      "textBackground": false,
+      "text": false,
+      "regText": "",
+      "video": false,
+      "vid_1": "img/world_animation.mp4",
+      "img_1": "img/abenteuer/abenteuer_flyer.jpg",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-white"
+    },
+    {
+      "presetName": "reg_1_t_i",
+      "title": true,
+      "titleText": "Flyer",
+      "regText": "Das Herzstück der Werbung sind Flyer, die immer drei Termine bewerben. Auf der Titelseite werden die drei Protagonisten in einem der Abenteuer illustriert.",
+      "img_1": "img/abenteuer/abenteuer_flyer_2.jpg",
+
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "reg_1_i_t",
+      "title": true,
+      "titleText": "Poster",
+      "regText": "Für die Plakatwerbung wurden Blanko-Plakate gestaltet, die für jede Abenteuerzeit individualisiert werden können.",
+      "img_1": "img/abenteuer/abenteuer_poster.jpg",
+
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "wide_1_t_i",
+      "title": true,
+      "titleText": "Website",
+      "regText": "Für weitere Informationen wie Anfahrt, nächste Abenteuerzeiten und Updates steht eine Webseite zur Verfügung.  Eine Anmeldefunktion für Veranstaltungen wurde ebenfalls implementiert.",
+      "img_1": "img/abenteuer/abenteuer_web.jpg",
+      "button": true,
+      "buttonText": "Zur Webseite",
+      "buttonLink": "https://www.abenteuerzeit-em.de",
+      "buttonColor": "b-yellow"
+    },
+    {
+      "presetName": "full_1",
+      "title": true,
+      "titleText": "Folien",
+      "text": true,
+      "textBackground": true,
+      "regText": "Der Vorteil an einer komplett eigenen Seite: Man kann sie genau so gestalten, wie man es möchte (mit a",
+      "video": false,
+      "vid_1": "img/world_animation.mp4",
+      "img_1": "img/abenteuer/abenteuer_folien.jpg",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-black"
+    }
+  ]
+}
