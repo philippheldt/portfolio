@@ -103,8 +103,8 @@ const webDev = [
 const grafik = [
   {
     title: "Aben&shy;teuer&shy;zeit",
-    text: "Animationsvideo als Werbung für eine Nachhaltigkeits- und Spendenkampagne der Jugendverbands SWD-EC.",
-    button: "Ja Grüezi! >",
+    text: "Visuelles Erscheinungsbild für einen Kindernachmittag.",
+    button: "Ab ins Abenteuer! >",
     buttonHref: "#",
     img1: "img/abenteuer/abenteuer_title.jpg",
     img2: "img/abenteuer/abenteuer_illu.jpg",
