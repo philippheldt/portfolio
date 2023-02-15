@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "presetName": "text",
+      "title": true,
+      "titleText": "Poetry Einspieler",
+      "regText": "Im Rahmen eines Mitarbeiterkongresses des SWD-EC Verbands, der im Jahr 2021 online stattfand, wurden zwei Poetry Videos zur Einstimmung in das Thema produziert. <br><br> Das Video konzentrierte sich auf die negativen Gefühle gegenüber der Situation in der Corona-Pandemie. Eine düstere Stimmung wurde in Kombination mit dramatischer Musik gewählt. <br><br> Im zweiten Video lag der Fokus auf die Hoffnung. Es wurden helle Farbtöne mit fröhlicher Musik ausgewählt.",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    }
+  ]
+}
