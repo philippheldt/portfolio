@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "presetName": "text",
+      "title": true,
+      "titleText": "3D-Modellierung & Animation",
+      "regText": "Diese 3D-Animation entstand während meines Studiums an der <a href='https://www.hs-furtwangen.de' target='_blank'> Hochschule Furtwangen </a> in Blender. Sie war das Abschlussprojekt der Veranstaltung »Computergrafik und 3D-Modellierung«. Teil der Aufgabe war die Konzeption über Storyboards bis hin zum Sound Design. Diese Komponenten wurden mit einer 3D-modellierten Erde, die mit entsprechenden Texturen und Physics versehen wurde, die sie Explosion realistischer machen sollten. <br><br> Anders als in der »Torten-Darstellung« sollte hier eindrucksvoller dargestellt werden, wie die verschiedenen Erdschichten im Verhältnis stehen.",
+      "button": false,
+      "buttonText": "This is the Button Text",
+      "buttonLink": "https://www.google.com",
+      "buttonColor": "b-yellow"
+    }
+  ]
+}
